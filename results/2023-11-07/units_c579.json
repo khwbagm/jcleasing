@@ -1,0 +1,182 @@
+[
+  {
+    "unit": "2701",
+    "size": "733",
+    "price": "3510",
+    "type": "1 Bed, 1 Bath",
+    "available_date": "2023-12-14",
+    "floorplan": "",
+    "building": "50-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "3601",
+    "size": "733",
+    "price": "3555",
+    "type": "1 Bed, 1 Bath",
+    "available_date": "2024-01-14",
+    "floorplan": "",
+    "building": "50-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "810",
+    "size": "781",
+    "price": "3445",
+    "type": "1 Bed, 1 Bath",
+    "available_date": "2023-12-06",
+    "floorplan": "",
+    "building": "50-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "3908",
+    "size": "474",
+    "price": "3300",
+    "type": "Studio",
+    "available_date": "2023-11-15",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "3411",
+    "size": "545",
+    "price": "3170",
+    "type": "Studio",
+    "available_date": "1900-01-01",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "4311",
+    "size": "545",
+    "price": "3260",
+    "type": "Studio",
+    "available_date": "1900-01-01",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "3711",
+    "size": "545",
+    "price": "3200",
+    "type": "Studio",
+    "available_date": "1900-01-01",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "4211",
+    "size": "545",
+    "price": "3250",
+    "type": "Studio",
+    "available_date": "2023-12-14",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "4612",
+    "size": "659",
+    "price": "3695",
+    "type": "1 Bed, 1 Bath",
+    "available_date": "1900-01-01",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "2312",
+    "size": "659",
+    "price": "3365",
+    "type": "1 Bed, 1 Bath",
+    "available_date": "2023-12-14",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "3205",
+    "size": "672",
+    "price": "3775",
+    "type": "1 Bed, 1 Bath",
+    "available_date": "2023-12-02",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "4805",
+    "size": "821",
+    "price": "4290",
+    "type": "1 Bed, 1 Bath",
+    "available_date": "1900-01-01",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "4302",
+    "size": "998",
+    "price": "5550",
+    "type": "2 Bed, 2 Bath",
+    "available_date": "2024-01-04",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "3602",
+    "size": "998",
+    "price": "5395",
+    "type": "2 Bed, 2 Bath",
+    "available_date": "2024-01-13",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "5004",
+    "size": "1086",
+    "price": "5865",
+    "type": "2 Bed, 2 Bath",
+    "available_date": "1900-01-01",
+    "floorplan": "",
+    "building": "70-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "207",
+    "size": "691",
+    "price": "3515",
+    "type": "1 Bed, 1 Bath",
+    "available_date": "2023-12-20",
+    "floorplan": "",
+    "building": "90-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "3002",
+    "size": "716",
+    "price": "3735",
+    "type": "1 Bed, 1 Bath",
+    "available_date": "2024-01-04",
+    "floorplan": "",
+    "building": "90-columbus",
+    "capture_datetime": "2023-11-07"
+  },
+  {
+    "unit": "3310",
+    "size": "1067",
+    "price": "5225",
+    "type": "2 Bed, 2 Bath",
+    "available_date": "1900-01-01",
+    "floorplan": "",
+    "building": "90-columbus",
+    "capture_datetime": "2023-11-07"
+  }
+]

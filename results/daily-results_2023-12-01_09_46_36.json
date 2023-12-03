@@ -1,0 +1,1714 @@
+[
+  {
+    "unit": "3211",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-01-10",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3049",
+        "price_range": "3049 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "4409",
+    "building": "235grand",
+    "size": "",
+    "available_date": "1970-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3688",
+        "price_range": "3688 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "4309",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2023-12-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3818",
+        "price_range": "3818 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "4012",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-01-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3558",
+        "price_range": "3558 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "3109",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-01-10",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3718",
+        "price_range": "3718 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "4509",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-01-10",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3868",
+        "price_range": "3868 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "2002",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3371",
+        "price_range": "3371 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "2004",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3371",
+        "price_range": "3371 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "2009",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3641",
+        "price_range": "3641 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "3212",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3411",
+        "price_range": "3411 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "3901",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3601",
+        "price_range": "3601 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "4002",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3481",
+        "price_range": "3481 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "4008",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3506",
+        "price_range": "3506 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "4504",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3511",
+        "price_range": "3511 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0405",
+    "building": "235grand",
+    "size": "",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4708",
+        "price_range": "4708 - ",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0812",
+    "building": "18park",
+    "size": "643",
+    "available_date": "2023-12-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3087",
+        "price_range": "3087 - 3795",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0643",
+    "building": "18park",
+    "size": "651",
+    "available_date": "1970-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3366",
+        "price_range": "3366 - 4166",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0322",
+    "building": "18park",
+    "size": "809",
+    "available_date": "1970-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3621",
+        "price_range": "3621 - 4473",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0445",
+    "building": "18park",
+    "size": "651",
+    "available_date": "1970-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3246",
+        "price_range": "3246 - 4022",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0333",
+    "building": "18park",
+    "size": "651",
+    "available_date": "2024-01-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3132",
+        "price_range": "3132 - 3855",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0540",
+    "building": "18park",
+    "size": "651",
+    "available_date": "2024-01-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3280",
+        "price_range": "3280 - 4034",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0705",
+    "building": "18park",
+    "size": "651",
+    "available_date": "2024-02-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3251",
+        "price_range": "3251 - 4014",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0728",
+    "building": "18park",
+    "size": "651",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3319",
+        "price_range": "3319 - 4072",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0818",
+    "building": "18park",
+    "size": "651",
+    "available_date": "2024-02-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3404",
+        "price_range": "3404 - 4175",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0817",
+    "building": "18park",
+    "size": "979",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4407",
+        "price_range": "4407 - 5466",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0901",
+    "building": "18park",
+    "size": "940",
+    "available_date": "2023-12-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4287",
+        "price_range": "4287 - 5339",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0722",
+    "building": "18park",
+    "size": "964",
+    "available_date": "2024-02-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4586",
+        "price_range": "4586 - 5608",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0405",
+    "building": "warren-at-york",
+    "size": "734",
+    "available_date": "1970-01-01",
+    "floorplan_type": "a3",
+    "floorplan_link": "https://www.warrenatyork.com/floorplans/a3",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3290",
+        "price_range": "3290 - 4555",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0802",
+    "building": "warren-at-york",
+    "size": "734",
+    "available_date": "1970-01-01",
+    "floorplan_type": "a3",
+    "floorplan_link": "https://www.warrenatyork.com/floorplans/a3",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3360",
+        "price_range": "3360 - 4630",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0613",
+    "building": "warren-at-york",
+    "size": "707",
+    "available_date": "2023-12-26",
+    "floorplan_type": "a2",
+    "floorplan_link": "https://www.warrenatyork.com/floorplans/a2",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3430",
+        "price_range": "3430 - 5200",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0511",
+    "building": "warren-at-york",
+    "size": "734",
+    "available_date": "2024-01-14",
+    "floorplan_type": "a5",
+    "floorplan_link": "https://www.warrenatyork.com/floorplans/a5",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3455",
+        "price_range": "3455 - 4620",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0804",
+    "building": "warren-at-york",
+    "size": "734",
+    "available_date": "1970-01-01",
+    "floorplan_type": "a6",
+    "floorplan_link": "https://www.warrenatyork.com/floorplans/a6",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3355",
+        "price_range": "3355 - 4625",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0412",
+    "building": "warren-at-york",
+    "size": "1082",
+    "available_date": "2024-02-05",
+    "floorplan_type": "b2",
+    "floorplan_link": "https://www.warrenatyork.com/floorplans/b2",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5005",
+        "price_range": "5005 - 7120",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0601",
+    "building": "warren-at-york",
+    "size": "1098",
+    "available_date": "1970-01-01",
+    "floorplan_type": "b4",
+    "floorplan_link": "https://www.warrenatyork.com/floorplans/b4",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4685",
+        "price_range": "4685 - 6250",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "0507",
+    "building": "warren-at-york",
+    "size": "1166",
+    "available_date": "1970-01-01",
+    "floorplan_type": "b10",
+    "floorplan_link": "https://www.warrenatyork.com/floorplans/b10",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5105",
+        "price_range": "5105 - 6690",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "1013",
+    "building": "warren-at-york",
+    "size": "1570",
+    "available_date": "2023-12-20",
+    "floorplan_type": "bd3",
+    "floorplan_link": "https://www.warrenatyork.com/floorplans/bd3",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6350",
+        "price_range": "6350 - 8540",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "2801",
+    "building": "50-columbus",
+    "size": "733",
+    "available_date": "2024-02-21",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3515",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "2008",
+    "building": "50-columbus",
+    "size": "812",
+    "available_date": "2024-02-21",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3660",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "3908",
+    "building": "70-columbus",
+    "size": "474",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3300",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "3908",
+    "building": "70-columbus",
+    "size": "474",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3300",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "1212",
+    "building": "70-columbus",
+    "size": "659",
+    "available_date": "2024-01-10",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3265",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "ph05",
+    "building": "70-columbus",
+    "size": "672",
+    "available_date": "2024-02-15",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4115",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "4302",
+    "building": "70-columbus",
+    "size": "998",
+    "available_date": "2024-01-04",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5550",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "3602",
+    "building": "70-columbus",
+    "size": "998",
+    "available_date": "2024-01-13",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5395",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "3705",
+    "building": "90-columbus",
+    "size": "701",
+    "available_date": "2024-01-21",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3975",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "4303",
+    "building": "90-columbus",
+    "size": "1120",
+    "available_date": "2024-02-05",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5850",
+        "price_range": "",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3712",
+    "building": "haus25",
+    "size": "665",
+    "available_date": "1900-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4551",
+        "price_range": "4551 - 4593",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3412",
+    "building": "haus25",
+    "size": "665",
+    "available_date": "2023-12-16",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4593",
+        "price_range": "4551 - 4593",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4718",
+    "building": "haus25",
+    "size": "1003",
+    "available_date": "1900-01-01",
+    "floorplan_type": "2b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6115",
+        "price_range": "5890 - 6115",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2818",
+    "building": "haus25",
+    "size": "1003",
+    "available_date": "2024-02-06",
+    "floorplan_type": "2b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5940",
+        "price_range": "5890 - 6115",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2718",
+    "building": "haus25",
+    "size": "1003",
+    "available_date": "2024-02-04",
+    "floorplan_type": "2b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5935",
+        "price_range": "5890 - 6115",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2618",
+    "building": "haus25",
+    "size": "1003",
+    "available_date": "2024-02-20",
+    "floorplan_type": "2b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5930",
+        "price_range": "5890 - 6115",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2218",
+    "building": "haus25",
+    "size": "1003",
+    "available_date": "2024-01-21",
+    "floorplan_type": "2b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5890",
+        "price_range": "5890 - 6115",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1814",
+    "building": "haus25",
+    "size": "1166",
+    "available_date": "2023-12-20",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6912",
+        "price_range": "6912",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4002",
+    "building": "haus25",
+    "size": "444",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3148",
+        "price_range": "3000 - 3148",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4302",
+    "building": "haus25",
+    "size": "444",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3035",
+        "price_range": "3000 - 3148",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3902",
+    "building": "haus25",
+    "size": "444",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3000",
+        "price_range": "3000 - 3148",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3007",
+    "building": "haus25",
+    "size": "1181",
+    "available_date": "2024-01-21",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6738",
+        "price_range": "6523 - 6738",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2107",
+    "building": "haus25",
+    "size": "1181",
+    "available_date": "2024-01-23",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6523",
+        "price_range": "6523 - 6738",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4703",
+    "building": "haus25",
+    "size": "847",
+    "available_date": "2023-12-12",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5123",
+        "price_range": "5088 - 5123",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4503",
+    "building": "haus25",
+    "size": "847",
+    "available_date": "2023-12-25",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5093",
+        "price_range": "5088 - 5123",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4403",
+    "building": "haus25",
+    "size": "847",
+    "available_date": "2024-01-13",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5088",
+        "price_range": "5088 - 5123",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4913",
+    "building": "haus25",
+    "size": "475",
+    "available_date": "2024-01-11",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3573",
+        "price_range": "3068 - 3573",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4813",
+    "building": "haus25",
+    "size": "475",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3122",
+        "price_range": "3068 - 3573",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4513",
+    "building": "haus25",
+    "size": "475",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3401",
+        "price_range": "3068 - 3573",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3713",
+    "building": "haus25",
+    "size": "475",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3068",
+        "price_range": "3068 - 3573",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3601",
+    "building": "haus25",
+    "size": "545",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3539",
+        "price_range": "3526 - 3841",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3901",
+    "building": "haus25",
+    "size": "545",
+    "available_date": "2023-12-18",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3841",
+        "price_range": "3526 - 3841",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4001",
+    "building": "haus25",
+    "size": "545",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3526",
+        "price_range": "3526 - 3841",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2612",
+    "building": "haus25",
+    "size": "744",
+    "available_date": "2024-02-05",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4511",
+        "price_range": "4356 - 4511",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1512",
+    "building": "haus25",
+    "size": "744",
+    "available_date": "2024-01-17",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4356",
+        "price_range": "4356 - 4511",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2208",
+    "building": "haus25",
+    "size": "1503",
+    "available_date": "2024-02-25",
+    "floorplan_type": "3b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "8694",
+        "price_range": "8694",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2416",
+    "building": "haus25",
+    "size": "751",
+    "available_date": "2024-03-03",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4069",
+        "price_range": "4069",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3611",
+    "building": "haus25",
+    "size": "1213",
+    "available_date": "2024-01-04",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6758",
+        "price_range": "6758",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1815",
+    "building": "haus25",
+    "size": "809",
+    "available_date": "2024-01-04",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4699",
+        "price_range": "4654 - 4699",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1515",
+    "building": "haus25",
+    "size": "809",
+    "available_date": "2023-12-29",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4654",
+        "price_range": "4654 - 4699",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5619",
+    "building": "haus25",
+    "size": "582",
+    "available_date": "2023-12-06",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4542",
+        "price_range": "4542",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4505",
+    "building": "haus25",
+    "size": "1113",
+    "available_date": "2024-01-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6667",
+        "price_range": "6667",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1513",
+    "building": "haus25",
+    "size": "745",
+    "available_date": "2024-01-08",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4056",
+        "price_range": "4041 - 4536",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1413",
+    "building": "haus25",
+    "size": "745",
+    "available_date": "2024-01-16",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4051",
+        "price_range": "4041 - 4536",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1113",
+    "building": "haus25",
+    "size": "745",
+    "available_date": "2023-12-07",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4041",
+        "price_range": "4041 - 4536",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1013",
+    "building": "haus25",
+    "size": "745",
+    "available_date": "2024-03-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4536",
+        "price_range": "4041 - 4536",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1001",
+    "building": "haus25",
+    "size": "575",
+    "available_date": "2024-01-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3551",
+        "price_range": "3551 - 3741",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2901",
+    "building": "haus25",
+    "size": "575",
+    "available_date": "2024-01-09",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3741",
+        "price_range": "3551 - 3741",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2401",
+    "building": "haus25",
+    "size": "575",
+    "available_date": "2023-12-21",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3696",
+        "price_range": "3551 - 3741",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2101",
+    "building": "haus25",
+    "size": "575",
+    "available_date": "2024-01-09",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3681",
+        "price_range": "3551 - 3741",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2001",
+    "building": "haus25",
+    "size": "575",
+    "available_date": "2023-12-09",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3626",
+        "price_range": "3551 - 3741",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3604",
+    "building": "haus25",
+    "size": "527",
+    "available_date": "2024-01-08",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3470",
+        "price_range": "3200 - 3490",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3704",
+    "building": "haus25",
+    "size": "527",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3475",
+        "price_range": "3200 - 3490",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4004",
+    "building": "haus25",
+    "size": "527",
+    "available_date": "2023-12-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3490",
+        "price_range": "3200 - 3490",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-0804",
+    "building": "haus25",
+    "size": "527",
+    "available_date": "2023-12-11",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3200",
+        "price_range": "3200 - 3490",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4811",
+    "building": "haus25",
+    "size": "1133",
+    "available_date": "2024-01-25",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6769",
+        "price_range": "6729 - 6769",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4611",
+    "building": "haus25",
+    "size": "1133",
+    "available_date": "2024-01-04",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6759",
+        "price_range": "6729 - 6769",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4411",
+    "building": "haus25",
+    "size": "1133",
+    "available_date": "2023-12-11",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6729",
+        "price_range": "6729 - 6769",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2810",
+    "building": "haus25",
+    "size": "548",
+    "available_date": "2024-02-19",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3676",
+        "price_range": "3676 - 3891",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1010",
+    "building": "haus25",
+    "size": "548",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3891",
+        "price_range": "3676 - 3891",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2209",
+    "building": "haus25",
+    "size": "835",
+    "available_date": "2024-01-27",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4462",
+        "price_range": "4342 - 4462",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1509",
+    "building": "haus25",
+    "size": "835",
+    "available_date": "2024-01-29",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4347",
+        "price_range": "4342 - 4462",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1409",
+    "building": "haus25",
+    "size": "835",
+    "available_date": "2024-01-31",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4342",
+        "price_range": "4342 - 4462",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3715",
+    "building": "haus25",
+    "size": "1210",
+    "available_date": "2023-12-28",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7073",
+        "price_range": "7043 - 7073",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3515",
+    "building": "haus25",
+    "size": "1210",
+    "available_date": "2024-01-05",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7043",
+        "price_range": "7043 - 7073",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5416",
+    "building": "haus25",
+    "size": "466",
+    "available_date": "2023-12-27",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3709",
+        "price_range": "3529 - 3709",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4116",
+    "building": "haus25",
+    "size": "466",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3554",
+        "price_range": "3529 - 3709",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4016",
+    "building": "haus25",
+    "size": "466",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3529",
+        "price_range": "3529 - 3709",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2602",
+    "building": "haus25",
+    "size": "799",
+    "available_date": "2024-02-12",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4172",
+        "price_range": "4172",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3103",
+    "building": "haus25",
+    "size": "1245",
+    "available_date": "2024-02-13",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6611",
+        "price_range": "6611",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4802",
+    "building": "haus25",
+    "size": "785",
+    "available_date": "2024-01-21",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4698",
+        "price_range": "4698",
+        "date_fetched": "2023-12-01 09:46:36"
+      }
+    ]
+  }
+]

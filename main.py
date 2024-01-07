@@ -89,15 +89,24 @@ def get_units_columbus579(driver):
             text = unit.get_attribute("innerHTML").strip()
             lines = _remove_brackets(text).split("\n")
             vals = [x.strip() for x in lines if x.strip() != ""]
-            match vals:
-                case aval, unit, price, size, floorplan_type, _:
-                    pass
-                case aval_unit, price, size, floorplan_type, _:
-                    aval, unit = aval_unit.lower().split("unit")
-                    aval = aval.strip()
-                    unit = unit.strip()
-                case _:
-                    raise ValueError(f"unexpected values: {vals}")
+            if len(vals) == 5:
+                aval_unit, price, size, floorplan_type, _ = vals
+                aval, unit = aval_unit.lower().split("unit")
+                aval = aval.strip()
+                unit = unit.strip()
+            elif len(vals) == 6:
+                aval, unit, price, size, floorplan_type, _ = vals
+            else:
+                raise ValueError(f"unexpected values: {vals}")
+            # match vals:
+            #     case aval, unit, price, size, floorplan_type, _:
+            #         pass
+            #     case aval_unit, price, size, floorplan_type, _:
+            #         aval, unit = aval_unit.lower().split("unit")
+            #         aval = aval.strip()
+            #         unit = unit.strip()
+            #     case _:
+            #         raise ValueError(f"unexpected values: {vals}")
 
         if "now" in aval.lower():
             aval_date = "01/01/1900"
@@ -349,10 +358,9 @@ def get_units_235grand(driver):
 
 
 def newDriver(debug=False):
-    
     options = Options()
-    options.headless = True
-    options.add_argument("--headless")
+    # options.headless = True
+    # options.add_argument("--headless")
     driver = webdriver.Firefox(options=options)
     return driver
 

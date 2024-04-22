@@ -11,9 +11,22 @@ from typing import List
 from logzero import logger
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.by import By
+from bs4 import BeautifulSoup
 
 date_fetched = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+
+def exception_helper(func):
+    def wrapped(*args, **kwargs):
+        try:
+            return func(*args, **kwargs)
+        except Exception as e:
+            logger.error(f"{func} failed at ({args}, {kwargs}), err: {e}")
+            return None
+
+    return wrapped
 
 
 @dataclass
@@ -222,15 +235,27 @@ def get_units_haus25(driver):
 
 
 def get_units_warrenatyork(driver):
-    def _parse_unit(texts, fp_url):
+    @exception_helper
+    def _parse_unit(item, fp_url):
         floorplan_type = fp_url.split("/")[-1]
         floorplan_link = fp_url
 
-        texts = texts.replace("\n", "").lower().split(" apply now")[0]
-        texts = (
-            texts.replace("to-", "").replace("#", "").replace(",", "").replace("$", "")
-        )
-        unit_no, size, price_low, price_high, date = texts.split(" ")
+        soup = BeautifulSoup(item.get_attribute("innerHTML"), "html.parser")
+
+        # Find elements by their classes
+        apartment_id_element = soup.find("td", class_="td-card-name")
+        sqft_element = soup.find("td", class_="td-card-sqft")
+        price_element = soup.find("td", class_="td-card-rent")
+        available_element = soup.find("td", class_="td-card-available")
+
+        # Extract text from elements
+        unit_no = apartment_id_element.text.strip().split("#")[1]
+        size = sqft_element.text.strip().split(":")[1].strip()
+        price_text = price_element.text.strip().split(":")[1]
+        price_text = price_text.replace(" to -", "").replace("$", "").replace(",", "")
+        price_low, price_high = price_text.strip().split()
+        date = available_element.text.strip().split(":")[1]
+
         if "/" not in date:
             date = "1/1/1970"
         m, d, y = date.split("/")
@@ -250,6 +275,11 @@ def get_units_warrenatyork(driver):
         return unit_info
 
     driver.get("https://www.warrenatyork.com/floorplans")
+    try:
+        driver.find_element(By.XPATH, '//a[text()="Got It"]').click()
+    except:
+        time.sleep(5)
+        driver.find_element(By.XPATH, '//a[text()="Got It"]').click()
     html_content = driver.page_source
     pattern = r"/floorplans/\w+\d+"
     fp_urls = [
@@ -259,9 +289,18 @@ def get_units_warrenatyork(driver):
     units = {}
     for fp_url in fp_urls:
         driver.get(fp_url)
+        try:
+            driver.find_element(By.XPATH, '//a[text()="Got It"]').click()
+        except Exception:
+            time.sleep(5)
+            driver.find_element(By.XPATH, '//a[text()="Got It"]').click()
         items = driver.find_elements(by=By.CLASS_NAME, value="unit-container")
         for item in items:
-            unit_info = _parse_unit(item.text, fp_url)
+            if not item:
+                continue
+            unit_info = _parse_unit(item, fp_url)
+            if not unit_info:
+                continue
             units[unit_info.unit] = unit_info
     units = list(units.values())
     return units
@@ -311,6 +350,7 @@ def get_units_18park(driver):
             units[unit.unit] = unit
     return list(units.values())
 
+
 def get_units_235grand(driver):
     def _parse_unit(texts, building_url):
         floorplan_type = (
@@ -352,15 +392,15 @@ def get_units_235grand(driver):
     ]:
         driver.get(building_url)
         for item in driver.find_elements(by=By.CLASS_NAME, value="unit-container"):
-            unit = (_parse_unit(item.text, building_url))
+            unit = _parse_unit(item.text, building_url)
             units[unit.unit] = unit
     return list(units.values())
 
 
 def newDriver(debug=False):
     options = Options()
-    # options.headless = True
-    # options.add_argument("--headless")
+    options.headless = True
+    options.add_argument("--headless")
     driver = webdriver.Firefox(options=options)
     return driver
 
@@ -374,7 +414,10 @@ def main():
         get_units_haus25,
     ]
     results = []
-    dt = os.path.join("results", "daily-results_" + str(datetime.now()).replace(" ", "_").split(".")[0]).replace(":", "_")
+    dt = os.path.join(
+        "results",
+        "daily-results_" + str(datetime.now()).replace(" ", "_").split(".")[0],
+    ).replace(":", "_")
     with open(dt + ".json", "w") as f, newDriver(debug=False) as driver:
         for fc in funcs:
             results.extend([asdict(x) for x in fc(driver)])

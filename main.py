@@ -276,9 +276,10 @@ def get_units_warrenatyork(driver):
 
     driver.get("https://www.warrenatyork.com/floorplans")
     try:
+        time.sleep(10)
         driver.find_element(By.XPATH, '//a[text()="Got It"]').click()
     except:
-        time.sleep(5)
+        time.sleep(10)
         driver.find_element(By.XPATH, '//a[text()="Got It"]').click()
     html_content = driver.page_source
     pattern = r"/floorplans/\w+\d+"
@@ -400,7 +401,7 @@ def get_units_235grand(driver):
 def newDriver(debug=False):
     options = Options()
     options.headless = True
-    options.add_argument("--headless")
+    # options.add_argument("--headless")
     driver = webdriver.Firefox(options=options)
     return driver
 
@@ -409,7 +410,7 @@ def main():
     funcs = [
         get_units_235grand,
         get_units_18park,
-        get_units_warrenatyork,
+        # get_units_warrenatyork,
         get_units_columbus579,
         get_units_haus25,
     ]
@@ -420,7 +421,12 @@ def main():
     ).replace(":", "_")
     with open(dt + ".json", "w") as f, newDriver(debug=False) as driver:
         for fc in funcs:
-            results.extend([asdict(x) for x in fc(driver)])
+            try:
+                results.extend([asdict(x) for x in fc(driver)])
+            except Exception as e:
+                print(fc.__name__)
+                print(e)
+                print()
         json.dump(results, f, indent=2)
 
 

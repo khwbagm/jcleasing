@@ -1,0 +1,306 @@
+[
+  {
+    "unit": "4210",
+    "building": "235grand",
+    "size": "",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3164",
+        "price_range": "3164 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "3711",
+    "building": "235grand",
+    "size": "",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3174",
+        "price_range": "3174 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "2404",
+    "building": "235grand",
+    "size": "",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3583",
+        "price_range": "3583 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "2504",
+    "building": "235grand",
+    "size": "",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3603",
+        "price_range": "3603 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "4104",
+    "building": "235grand",
+    "size": "",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3673",
+        "price_range": "3673 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "4312",
+    "building": "235grand",
+    "size": "",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3803",
+        "price_range": "3803 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0624",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-06-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3808",
+        "price_range": "3808 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0522",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-06-08",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3783",
+        "price_range": "3783 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "2208",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-06-09",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3718",
+        "price_range": "3718 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0803",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-06-14",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3743",
+        "price_range": "3743 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "1109",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-07-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3936",
+        "price_range": "3936 - ",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0638",
+    "building": "18park",
+    "size": "643",
+    "available_date": "2024-05-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3293",
+        "price_range": "3293 - 4044",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0314",
+    "building": "18park",
+    "size": "643",
+    "available_date": "2024-07-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3097",
+        "price_range": "3097 - 3818",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0618",
+    "building": "18park",
+    "size": "651",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3255",
+        "price_range": "3255 - 4051",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0640",
+    "building": "18park",
+    "size": "651",
+    "available_date": "1970-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3275",
+        "price_range": "3275 - 4075",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0923",
+    "building": "18park",
+    "size": "651",
+    "available_date": "2024-06-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3285",
+        "price_range": "3285 - 4051",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0342",
+    "building": "18park",
+    "size": "651",
+    "available_date": "2024-07-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3370",
+        "price_range": "3370 - 4164",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0344",
+    "building": "18park",
+    "size": "651",
+    "available_date": "2024-07-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3370",
+        "price_range": "3370 - 4164",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  },
+  {
+    "unit": "0707",
+    "building": "18park",
+    "size": "646",
+    "available_date": "2024-07-07",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3232",
+        "price_range": "3232 - 3997",
+        "date_fetched": "2024-04-24 19:26:36"
+      }
+    ]
+  }
+]

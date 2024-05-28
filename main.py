@@ -410,7 +410,7 @@ def main():
     funcs = [
         get_units_235grand,
         get_units_18park,
-        # get_units_warrenatyork,
+        get_units_warrenatyork,
         get_units_columbus579,
         get_units_haus25,
     ]
@@ -419,14 +419,15 @@ def main():
         "results",
         "daily-results_" + str(datetime.now()).replace(" ", "_").split(".")[0],
     ).replace(":", "_")
+    for fc in funcs:
+        print(fc.__name__)
+        try:
+            results.extend([asdict(x) for x in fc(driver)])
+        except Exception as e:
+            print(fc.__name__)
+            print(e)
+            print()
     with open(dt + ".json", "w") as f, newDriver(debug=False) as driver:
-        for fc in funcs:
-            try:
-                results.extend([asdict(x) for x in fc(driver)])
-            except Exception as e:
-                print(fc.__name__)
-                print(e)
-                print()
         json.dump(results, f, indent=2)
 
 

@@ -7,11 +7,10 @@ import random
 from datetime import datetime
 from dataclasses import dataclass, asdict
 from typing import List
-
+import requests
 from logzero import logger
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
@@ -234,6 +233,41 @@ def get_units_haus25(driver):
     return list(unit_infos.values())
 
 
+def get_units_1grove(driver):
+    URL = "http://www.greystar.com/api/floorplans/d33a08e1-b488-495d-ae92-3882ab6e5e65/floorplans"
+    resp = requests.get(URL)
+    assert resp.status_code == 200, f"status_code = {resp.status_code}"
+    floorplans = resp.json()["floorplans"]
+
+    units = []
+    for fp in floorplans:
+        floorplan_type = f"{int(fp['beds'])}b{int(fp['baths'])}b"
+        floorplan_link = "http://www.greystar.com/" + fp["path"]
+        floorplan_note = fp["name"]
+
+        for info in fp["unitsAvailable"]:
+            unit = info["number"]
+            price = info["price"].replace("$", "").replace(",", "")
+            size = info["squareFeet"]
+            available_date = info["available"]
+            if available_date.lower() == "Today":
+                available_date = "01/01/1900"
+
+            units.append(
+                UnitInfo(
+                    unit=unit,
+                    building="1grove",
+                    size=size,
+                    available_date=available_date,
+                    floorplan_type=floorplan_type,
+                    floorplan_link=floorplan_link,
+                    floorplan_note=floorplan_note,
+                    prices=[PriceInfo(price=price, date_fetched=date_fetched)],
+                )
+            )
+    return units
+
+
 def get_units_warrenatyork(driver):
     @exception_helper
     def _parse_unit(item, fp_url):
@@ -400,7 +434,7 @@ def get_units_235grand(driver):
 
 def newDriver(debug=False):
     options = Options()
-    options.headless = True
+    # options.headless = True
     # options.add_argument("--headless")
     driver = webdriver.Firefox(options=options)
     return driver
@@ -413,21 +447,23 @@ def main():
         get_units_warrenatyork,
         get_units_columbus579,
         get_units_haus25,
+        get_units_1grove,
     ]
     results = []
     dt = os.path.join(
         "results",
         "daily-results_" + str(datetime.now()).replace(" ", "_").split(".")[0],
     ).replace(":", "_")
-    for fc in funcs:
-        print(fc.__name__)
-        try:
-            results.extend([asdict(x) for x in fc(driver)])
-        except Exception as e:
+    with newDriver(debug=False) as driver:
+        for fc in funcs:
             print(fc.__name__)
-            print(e)
-            print()
-    with open(dt + ".json", "w") as f, newDriver(debug=False) as driver:
+            try:
+                results.extend([asdict(x) for x in fc(driver)])
+            except Exception as e:
+                print(fc.__name__)
+                print(e)
+                print()
+    with open(dt + ".json", "w") as f:
         json.dump(results, f, indent=2)
 
 

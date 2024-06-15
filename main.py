@@ -434,8 +434,8 @@ def get_units_235grand(driver):
 
 def newDriver(debug=False):
     options = Options()
-    # options.headless = True
-    # options.add_argument("--headless")
+    options.headless = True
+    options.add_argument("--headless")
     driver = webdriver.Firefox(options=options)
     return driver
 

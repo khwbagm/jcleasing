@@ -188,7 +188,7 @@ def get_units_haus25(driver):
         )
         if date_obj < datetime.now():
             date_obj = datetime.strptime(
-                f"{date_str.strip()}, {datetime.now().year+1}", "%b. %d, %Y"
+                f"{date_str.strip()}, {datetime.now().year + 1}", "%b. %d, %Y"
             )
         return str(date_obj).split(" ")[0]
 
@@ -435,8 +435,8 @@ def get_units_235grand(driver):
 
 def newDriver(debug=False):
     options = Options()
-    options.headless = True
-    options.add_argument("--headless")
+    # options.headless = True
+    # options.add_argument("--headless")
     driver = webdriver.Firefox(options=options)
     return driver
 
@@ -446,9 +446,9 @@ def main():
         # get_units_235grand,
         # get_units_18park,
         # get_units_warrenatyork,
-         get_units_columbus579,
-         get_units_haus25,
-         get_units_1grove,
+        get_units_columbus579,
+        get_units_haus25,
+        get_units_1grove,
     ]
     results = []
     dt = os.path.join(

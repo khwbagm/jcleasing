@@ -34,7 +34,7 @@ Examples:
     )
 
     parser.add_argument(
-        "--output-dir", default="data", help="Directory to save results (default: data)"
+        "--output-dir", default="results", help="Directory to save results (default: data)"
     )
 
     parser.add_argument(

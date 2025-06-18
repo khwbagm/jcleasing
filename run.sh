@@ -9,5 +9,8 @@ cd "$SCRIPT_DIR"
 # Activate virtual environment
 source .venv/bin/activate
 
+# Ensure src is in PYTHONPATH
+export PYTHONPATH="$SCRIPT_DIR/src:$PYTHONPATH"
+
 # Run the Python script
-python main.py
+python -m jcleasing.main

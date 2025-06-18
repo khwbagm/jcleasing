@@ -1,127 +1,151 @@
 """Scraper for 1 Grove building."""
-from datetime import datetime
-from typing import List, Optional
 
-from selenium.webdriver.remote.webdriver import WebDriver
+import re
+
+from bs4 import BeautifulSoup
+from loguru import logger
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
-from jcleasing.models.units import UnitInfo, PriceInfo
+from jcleasing.models.units import PriceInfo, UnitInfo
 from jcleasing.scrapers.base import BaseScraper
-from jcleasing.utils.helpers import wait, shorten_floorplan_type, get_current_timestamp
+from jcleasing.utils.helpers import get_current_timestamp, wait
 
 
 class GroveScraper(BaseScraper):
     """Scraper for 1 Grove building."""
-    
-    def get_units(self) -> List[UnitInfo]:
+
+    def get_units(self):
         """Get all available units from 1 Grove."""
-        self.driver.get("https://www.1grove.com/floorplans")
+        self.driver.get("https://onegrovejc.com/floorplans/")
         wait()
-        
-        # Wait for the floorplans to load
-        WebDriverWait(self.driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "floorplan-card"))
+
+        # Click the Floorplans tab using aria-controls
+        floorplans_tab = self.driver.find_element(
+            by=By.CSS_SELECTOR, value="a[aria-controls='Floorplans']"
         )
-        
+        floorplans_tab.click()
+        wait()
+
+        # Get the innerHTML of the floorplan body
+        floorplan_body = self.driver.find_element(by=By.ID, value="jd-fp-body")
+        html_content = floorplan_body.get_attribute("innerHTML")
+
+        # Parse with BeautifulSoup
+        soup = BeautifulSoup(html_content, "html.parser")
+
         # Get all floorplan cards
-        floorplan_cards = self.driver.find_elements(
-            by=By.CLASS_NAME,
-            value="floorplan-card"
-        )
-        
+        floorplan_cards = soup.select(".jd-fp-floorplan-card")
+
         units = []
         for card in floorplan_cards:
             try:
-                # Click on the floorplan to see available units
-                card.click()
-                wait(1, 0.5)  # Wait for the modal to open
-                
-                # Get units in this floorplan
-                units.extend(self._get_units_in_floorplan())
-                
-                # Close the modal
-                close_btn = self.driver.find_element(
-                    by=By.CSS_SELECTOR,
-                    value="button[aria-label='Close']"
+                # Extract floorplan information
+                title = card.select_one(".jd-fp-card-info__title").text.strip()
+
+                # Extract bedroom, bathroom, and size information
+                # Collect all span texts inside the info paragraph
+                spans = card.select("p.jd-fp-card-info__text span")
+                if len(spans) < 3:
+                    logger.warning(f"Not enough spans found for floorplan {title}")
+                    continue
+
+                bedroom = spans[0].get_text(strip=True)
+                bath = spans[1].get_text(strip=True)
+                size_text = spans[2].get_text(strip=True)
+
+                # Extract size number from the third span, or fallback to image alt text
+                size_match = re.search(r"(\d+)", size_text.replace(",", ""))
+                size = None
+
+                if size_match:
+                    size = int(size_match.group(1))
+                else:
+                    # If third span doesn't contain size (e.g., "Den"), try image alt text
+                    img_element = card.select_one("img")
+                    if img_element:
+                        alt_text = img_element.get("alt", "")
+                        title_text = img_element.get("title", "")
+
+                        # Try to extract size from alt or title text
+                        for text in [alt_text, title_text]:
+                            size_match = re.search(r"(\d+)\s*square feet", text)
+                            if size_match:
+                                size = int(size_match.group(1))
+                                break
+
+                if not size:
+                    logger.warning(
+                        f"Could not parse size for floorplan {title} - skipping"
+                    )
+                    continue
+
+                # Extract price information
+                price_element = card.select_one(".jd-fp-strong-text")
+                price_text = (
+                    price_element.text.strip() if price_element else "Contact Us"
                 )
-                close_btn.click()
-                wait()
-                
+
+                # Parse price - handle different price formats
+                price = None
+                if "Contact Us" not in price_text:
+                    # Try to extract price if it's not "Contact Us"
+                    if "Base Rent $" in price_text:
+                        try:
+                            # Remove commas and Base Rent prefix
+                            price_str = price_text.replace("Base Rent $", "").replace(
+                                ",", ""
+                            )
+                            price = int(price_str)
+                        except ValueError:
+                            logger.warning(
+                                f"Could not parse price '{price_text}' for floorplan {title}"
+                            )
+                    else:
+                        # Try to extract any dollar amount
+                        price_match = re.search(
+                            r"\$?([\d,]+)", price_text.replace("$", "")
+                        )
+                        if price_match:
+                            try:
+                                price = int(price_match.group(1).replace(",", ""))
+                            except ValueError:
+                                logger.warning(
+                                    f"Could not parse price '{price_text}' for floorplan {title}"
+                                )
+
+                # Extract floorplan link from href attribute
+                floorplan_link = card.get("href", "")
+                if floorplan_link and not floorplan_link.startswith("http"):
+                    floorplan_link = f"https://onegrovejc.com{floorplan_link}"
+
+                # Build floorplan note - handle "Den" case
+                note_parts = [bedroom, bath]
+                if "Den" in size_text:
+                    note_parts.append(size_text)  # Add "Den" to the note
+                floorplan_note = " | ".join(note_parts)
+
+                # Create UnitInfo
+                units.append(
+                    UnitInfo(
+                        unit="",  # No specific unit number available
+                        building="1 Grove",
+                        size=size,
+                        available_date="1900-01-01",  # No specific available date
+                        floorplan_type=title,
+                        floorplan_link=floorplan_link,
+                        floorplan_note=floorplan_note,
+                        prices=[
+                            PriceInfo(
+                                price=price,
+                                price_range=price_text if price is None else "",
+                                date_fetched=get_current_timestamp(),
+                            )
+                        ],
+                    )
+                )
             except Exception as e:
-                print(f"Error processing floorplan: {e}")
+                logger.warning(f"Error parsing floorplan card: {e}")
                 continue
-                
+
+        logger.info(f"Found {len(units)} floorplans")
         return units
-    
-    def _get_units_in_floorplan(self) -> List[UnitInfo]:
-        """Get all units from the currently open floorplan modal."""
-        try:
-            # Wait for the units to load in the modal
-            WebDriverWait(self.driver, 5).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "unit-row"))
-            )
-            
-            unit_rows = self.driver.find_elements(
-                by=By.CLASS_NAME,
-                value="unit-row"
-            )
-            
-            return [self._parse_unit_row(row) for row in unit_rows]
-            
-        except Exception as e:
-            print(f"Error getting units in floorplan: {e}")
-            return []
-    
-    def _parse_unit_row(self, row_element) -> Optional[UnitInfo]:
-        """Parse unit information from a unit row."""
-        try:
-            # Extract unit information
-            unit_number = self._get_element_text(row_element, ".unit-number")
-            price = self._get_element_text(row_element, ".price")
-            size = self._get_element_text(row_element, ".sqft")
-            available_date = self._get_element_text(row_element, ".available-date")
-            floorplan_type = self._get_element_text(row_element, ".floorplan-type")
-            
-            # Clean and format the data
-            unit_number = unit_number.replace("Unit ", "").strip()
-            price = price.replace("$", "").replace(",", "").strip()
-            size = size.replace("sq ft", "").replace(",", "").strip()
-            
-            # Parse the available date
-            available_date = self._parse_available_date(available_date)
-            
-            # Create price info
-            price_info = PriceInfo(
-                price=price,
-                price_range="",
-                date_fetched=get_current_timestamp()
-            )
-            
-            return UnitInfo(
-                unit=unit_number,
-                building="1Grove",
-                size=size,
-                available_date=available_date,
-                floorplan_type=shorten_floorplan_type(floorplan_type),
-                prices=[price_info]
-            )
-            
-        except Exception as e:
-            print(f"Error parsing unit row: {e}")
-            return None
-    
-    @staticmethod
-    def _parse_available_date(date_str: str) -> str:
-        """Parse the available date string."""
-        if not date_str or "now" in date_str.lower():
-            return "1900-01-01"
-        
-        try:
-            # Try to parse the date (format: "Available MM/DD/YYYY")
-            date_part = date_str.lower().replace("available", "").strip()
-            date_obj = datetime.strptime(date_part, "%m/%d/%Y")
-            return date_obj.strftime("%Y-%m-%d")
-        except ValueError:
-            return "1900-01-01"

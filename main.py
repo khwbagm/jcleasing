@@ -426,6 +426,7 @@ def get_units_235grand(driver):
         "https://www.235grand.com/floorplans/2-bedroom---2-bathroom",
     ]:
         driver.get(building_url)
+        input()
         for item in driver.find_elements(by=By.CLASS_NAME, value="unit-container"):
             unit = _parse_unit(item.text, building_url)
             units[unit.unit] = unit
@@ -442,12 +443,12 @@ def newDriver(debug=False):
 
 def main():
     funcs = [
-        get_units_235grand,
-        get_units_18park,
-        get_units_warrenatyork,
-        get_units_columbus579,
-        get_units_haus25,
-        get_units_1grove,
+        # get_units_235grand,
+        # get_units_18park,
+        # get_units_warrenatyork,
+         get_units_columbus579,
+         get_units_haus25,
+         get_units_1grove,
     ]
     results = []
     dt = os.path.join(

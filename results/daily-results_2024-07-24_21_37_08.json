@@ -1,0 +1,2258 @@
+[
+  {
+    "unit": "3010",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-09-12",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3155",
+        "price_range": "3155 - ",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "3713",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-09-12",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3650",
+        "price_range": "3650 - ",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "2013",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-09-14",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3350",
+        "price_range": "3350 - ",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "2811",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-09-17",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3160",
+        "price_range": "3160 - ",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "4411",
+    "building": "235grand",
+    "size": "",
+    "available_date": "2024-10-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3335",
+        "price_range": "3335 - ",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0312",
+    "building": "18park",
+    "size": "643",
+    "available_date": "2024-09-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3124",
+        "price_range": "3124 - 3842",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0412",
+    "building": "18park",
+    "size": "643",
+    "available_date": "2024-09-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3179",
+        "price_range": "3179 - 3908",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0614",
+    "building": "18park",
+    "size": "643",
+    "available_date": "2024-09-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3249",
+        "price_range": "3249 - 3993",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "ph38",
+    "building": "18park",
+    "size": "643",
+    "available_date": "2024-10-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3247",
+        "price_range": "3247 - 4014",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "207",
+    "building": "50-columbus",
+    "size": "512",
+    "available_date": "2024-10-06",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3065",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1611",
+    "building": "50-columbus",
+    "size": "546",
+    "available_date": "2024-10-16",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3005",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "208",
+    "building": "50-columbus",
+    "size": "678",
+    "available_date": "2024-08-14",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3750",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "2405",
+    "building": "50-columbus",
+    "size": "837",
+    "available_date": "2024-09-23",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3990",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "ph11",
+    "building": "70-columbus",
+    "size": "545",
+    "available_date": "2024-08-16",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3475",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "4311",
+    "building": "70-columbus",
+    "size": "545",
+    "available_date": "2024-09-18",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3395",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "3911",
+    "building": "70-columbus",
+    "size": "545",
+    "available_date": "2024-10-06",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3355",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "4509",
+    "building": "70-columbus",
+    "size": "662",
+    "available_date": "2024-09-05",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3805",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "4907",
+    "building": "70-columbus",
+    "size": "787",
+    "available_date": "1900-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4230",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "5005",
+    "building": "70-columbus",
+    "size": "821",
+    "available_date": "2024-09-12",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4360",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "4202",
+    "building": "70-columbus",
+    "size": "998",
+    "available_date": "2024-08-16",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5535",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "2502",
+    "building": "70-columbus",
+    "size": "998",
+    "available_date": "2024-09-27",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5130",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "3008",
+    "building": "90-columbus",
+    "size": "697",
+    "available_date": "2024-09-05",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3950",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "4705",
+    "building": "90-columbus",
+    "size": "701",
+    "available_date": "1900-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4300",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "5005",
+    "building": "90-columbus",
+    "size": "701",
+    "available_date": "2024-08-30",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4330",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "3708",
+    "building": "90-columbus",
+    "size": "704",
+    "available_date": "2024-08-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4260",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "4708",
+    "building": "90-columbus",
+    "size": "704",
+    "available_date": "2024-08-30",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4510",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "4608",
+    "building": "90-columbus",
+    "size": "704",
+    "available_date": "2024-09-10",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4500",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "4306",
+    "building": "90-columbus",
+    "size": "708",
+    "available_date": "2024-09-10",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4095",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "3003",
+    "building": "90-columbus",
+    "size": "1102",
+    "available_date": "2024-09-05",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5615",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "ph03",
+    "building": "90-columbus",
+    "size": "1120",
+    "available_date": "2024-09-14",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6055",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4713",
+    "building": "haus25",
+    "size": "475",
+    "available_date": "2024-08-15",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3809",
+        "price_range": "3729 - 3809",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4413",
+    "building": "haus25",
+    "size": "475",
+    "available_date": "2024-08-08",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3774",
+        "price_range": "3729 - 3809",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3913",
+    "building": "haus25",
+    "size": "475",
+    "available_date": "2024-08-24",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3729",
+        "price_range": "3729 - 3809",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4113",
+    "building": "haus25",
+    "size": "475",
+    "available_date": "2024-09-17",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3759",
+        "price_range": "3729 - 3809",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3014",
+    "building": "haus25",
+    "size": "1166",
+    "available_date": "2024-09-21",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7963",
+        "price_range": "7912 - 7963",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2114",
+    "building": "haus25",
+    "size": "1166",
+    "available_date": "1900-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7912",
+        "price_range": "7912 - 7963",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5103",
+    "building": "haus25",
+    "size": "847",
+    "available_date": "1900-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5429",
+        "price_range": "5429",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2907",
+    "building": "haus25",
+    "size": "1181",
+    "available_date": "1900-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7665",
+        "price_range": "7135 - 7665",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-0507",
+    "building": "haus25",
+    "size": "1181",
+    "available_date": "1900-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7135",
+        "price_range": "7135 - 7665",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-1208",
+    "building": "haus25",
+    "size": "1503",
+    "available_date": "2024-09-15",
+    "floorplan_type": "3b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "8993",
+        "price_range": "8993",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2013",
+    "building": "haus25",
+    "size": "745",
+    "available_date": "2024-09-06",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4784",
+        "price_range": "4784",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2911",
+    "building": "haus25",
+    "size": "478",
+    "available_date": "2024-08-22",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3799",
+        "price_range": "3799",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3615",
+    "building": "haus25",
+    "size": "1210",
+    "available_date": "2024-09-17",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "8323",
+        "price_range": "8210 - 8323",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3115",
+    "building": "haus25",
+    "size": "1210",
+    "available_date": "2024-09-30",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "8210",
+        "price_range": "8210 - 8323",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4103",
+    "building": "haus25",
+    "size": "1245",
+    "available_date": "2024-09-29",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7846",
+        "price_range": "7846 - 7902",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4303",
+    "building": "haus25",
+    "size": "1245",
+    "available_date": "2024-08-20",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7902",
+        "price_range": "7846 - 7902",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2615",
+    "building": "haus25",
+    "size": "809",
+    "available_date": "2024-08-12",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5494",
+        "price_range": "5494",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4102",
+    "building": "haus25",
+    "size": "444",
+    "available_date": "2024-10-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3774",
+        "price_range": "3674 - 3784",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4202",
+    "building": "haus25",
+    "size": "444",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3674",
+        "price_range": "3674 - 3784",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4302",
+    "building": "haus25",
+    "size": "444",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3784",
+        "price_range": "3674 - 3784",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3402",
+    "building": "haus25",
+    "size": "444",
+    "available_date": "2024-08-27",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3699",
+        "price_range": "3674 - 3784",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5312",
+    "building": "haus25",
+    "size": "833",
+    "available_date": "2024-09-14",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "6219",
+        "price_range": "6219",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5414",
+    "building": "haus25",
+    "size": "1411",
+    "available_date": "2024-09-02",
+    "floorplan_type": "3b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "10843",
+        "price_range": "10475 - 10843",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4914",
+    "building": "haus25",
+    "size": "1411",
+    "available_date": "2024-08-27",
+    "floorplan_type": "3b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "10475",
+        "price_range": "10475 - 10843",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3912",
+    "building": "haus25",
+    "size": "665",
+    "available_date": "1900-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5014",
+        "price_range": "5014",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5517",
+    "building": "haus25",
+    "size": "675",
+    "available_date": "2024-09-11",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5004",
+        "price_range": "4754 - 5004",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4517",
+    "building": "haus25",
+    "size": "675",
+    "available_date": "2024-08-31",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4864",
+        "price_range": "4754 - 5004",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3617",
+    "building": "haus25",
+    "size": "675",
+    "available_date": "2024-08-30",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4799",
+        "price_range": "4754 - 5004",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3117",
+    "building": "haus25",
+    "size": "675",
+    "available_date": "2024-08-29",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4754",
+        "price_range": "4754 - 5004",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5109",
+    "building": "haus25",
+    "size": "1200",
+    "available_date": "2024-09-03",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "8868",
+        "price_range": "8610 - 8868",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4609",
+    "building": "haus25",
+    "size": "1200",
+    "available_date": "2024-11-06",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "8610",
+        "price_range": "8610 - 8868",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4909",
+    "building": "haus25",
+    "size": "1200",
+    "available_date": "2024-09-02",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "8787",
+        "price_range": "8610 - 8868",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2210",
+    "building": "haus25",
+    "size": "548",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3954",
+        "price_range": "3954",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4318",
+    "building": "haus25",
+    "size": "1003",
+    "available_date": "2024-11-05",
+    "floorplan_type": "2b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7015",
+        "price_range": "7014 - 7015",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2918",
+    "building": "haus25",
+    "size": "1003",
+    "available_date": "2024-09-17",
+    "floorplan_type": "2b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7014",
+        "price_range": "7014 - 7015",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2605",
+    "building": "haus25",
+    "size": "685",
+    "available_date": "2024-09-27",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4574",
+        "price_range": "4574",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3002",
+    "building": "haus25",
+    "size": "1038",
+    "available_date": "1900-01-01",
+    "floorplan_type": "2b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7022",
+        "price_range": "7022",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5105",
+    "building": "haus25",
+    "size": "1113",
+    "available_date": "2024-09-03",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7967",
+        "price_range": "7650 - 7967",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3906",
+    "building": "haus25",
+    "size": "1113",
+    "available_date": "1900-01-01",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "7650",
+        "price_range": "7650 - 7967",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-2801",
+    "building": "haus25",
+    "size": "575",
+    "available_date": "2024-09-09",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3849",
+        "price_range": "3849",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4502",
+    "building": "haus25",
+    "size": "785",
+    "available_date": "1900-01-01",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5015",
+        "price_range": "5015",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3801",
+    "building": "haus25",
+    "size": "545",
+    "available_date": "2024-10-05",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4209",
+        "price_range": "4209 - 4219",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-4001",
+    "building": "haus25",
+    "size": "545",
+    "available_date": "2024-08-31",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "4219",
+        "price_range": "4209 - 4219",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5216",
+    "building": "haus25",
+    "size": "466",
+    "available_date": "2024-09-07",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3704",
+        "price_range": "3524 - 3719",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5516",
+    "building": "haus25",
+    "size": "466",
+    "available_date": "2024-08-09",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3719",
+        "price_range": "3524 - 3719",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3816",
+    "building": "haus25",
+    "size": "466",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3524",
+        "price_range": "3524 - 3719",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-5212",
+    "building": "haus25",
+    "size": "744",
+    "available_date": "2024-08-19",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "5489",
+        "price_range": "5489",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3804",
+    "building": "haus25",
+    "size": "527",
+    "available_date": "2024-09-13",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3754",
+        "price_range": "3724 - 3754",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "H25-3404",
+    "building": "haus25",
+    "size": "527",
+    "available_date": "1900-01-01",
+    "floorplan_type": "studio",
+    "floorplan_link": "",
+    "floorplan_note": "",
+    "prices": [
+      {
+        "price": "3724",
+        "price_range": "3724 - 3754",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0204",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s2-5189400",
+    "floorplan_note": "S2",
+    "prices": [
+      {
+        "price": "3160",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0205",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s2-5189400",
+    "floorplan_note": "S2",
+    "prices": [
+      {
+        "price": "3160",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0206",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s2-5189400",
+    "floorplan_note": "S2",
+    "prices": [
+      {
+        "price": "3160",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0304",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s2-5189400",
+    "floorplan_note": "S2",
+    "prices": [
+      {
+        "price": "2925",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0305",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s2-5189400",
+    "floorplan_note": "S2",
+    "prices": [
+      {
+        "price": "2925",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0202",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s1d-5189399",
+    "floorplan_note": "S1D",
+    "prices": [
+      {
+        "price": "3235",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0203",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s1d-5189399",
+    "floorplan_note": "S1D",
+    "prices": [
+      {
+        "price": "3235",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0303",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s1d-5189399",
+    "floorplan_note": "S1D",
+    "prices": [
+      {
+        "price": "3200",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0502",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s1d-5189399",
+    "floorplan_note": "S1D",
+    "prices": [
+      {
+        "price": "3015",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0503",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s1d-5189399",
+    "floorplan_note": "S1D",
+    "prices": [
+      {
+        "price": "3215",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0201",
+    "building": "1grove",
+    "size": "626",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s3d-5189401",
+    "floorplan_note": "S3D",
+    "prices": [
+      {
+        "price": "3374",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1001",
+    "building": "1grove",
+    "size": "626",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s3d-5189401",
+    "floorplan_note": "S3D",
+    "prices": [
+      {
+        "price": "3429",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1201",
+    "building": "1grove",
+    "size": "626",
+    "available_date": "08/05/2024",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s3d-5189401",
+    "floorplan_note": "S3D",
+    "prices": [
+      {
+        "price": "3459",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0209",
+    "building": "1grove",
+    "size": "657",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a1-5211142",
+    "floorplan_note": "A1",
+    "prices": [
+      {
+        "price": "3549",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0210",
+    "building": "1grove",
+    "size": "657",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a1-5211142",
+    "floorplan_note": "A1",
+    "prices": [
+      {
+        "price": "3549",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0211",
+    "building": "1grove",
+    "size": "657",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a1-5211142",
+    "floorplan_note": "A1",
+    "prices": [
+      {
+        "price": "3549",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0212",
+    "building": "1grove",
+    "size": "657",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a1-5211142",
+    "floorplan_note": "A1",
+    "prices": [
+      {
+        "price": "3549",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0213",
+    "building": "1grove",
+    "size": "657",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a1-5211142",
+    "floorplan_note": "A1",
+    "prices": [
+      {
+        "price": "3549",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0208",
+    "building": "1grove",
+    "size": "660",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a2-5189404",
+    "floorplan_note": "A2",
+    "prices": [
+      {
+        "price": "3565",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0308",
+    "building": "1grove",
+    "size": "660",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a2-5189404",
+    "floorplan_note": "A2",
+    "prices": [
+      {
+        "price": "3580",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0508",
+    "building": "1grove",
+    "size": "660",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a2-5189404",
+    "floorplan_note": "A2",
+    "prices": [
+      {
+        "price": "3595",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0608",
+    "building": "1grove",
+    "size": "660",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a2-5189404",
+    "floorplan_note": "A2",
+    "prices": [
+      {
+        "price": "3635",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0708",
+    "building": "1grove",
+    "size": "660",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a2-5189404",
+    "floorplan_note": "A2",
+    "prices": [
+      {
+        "price": "3750",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0318",
+    "building": "1grove",
+    "size": "709",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a3-5217024",
+    "floorplan_note": "A3",
+    "prices": [
+      {
+        "price": "3737",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0518",
+    "building": "1grove",
+    "size": "709",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a3-5217024",
+    "floorplan_note": "A3",
+    "prices": [
+      {
+        "price": "3752",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0618",
+    "building": "1grove",
+    "size": "709",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a3-5217024",
+    "floorplan_note": "A3",
+    "prices": [
+      {
+        "price": "3767",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0718",
+    "building": "1grove",
+    "size": "709",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a3-5217024",
+    "floorplan_note": "A3",
+    "prices": [
+      {
+        "price": "3782",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0916",
+    "building": "1grove",
+    "size": "709",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a3-5217024",
+    "floorplan_note": "A3",
+    "prices": [
+      {
+        "price": "3837",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0320",
+    "building": "1grove",
+    "size": "786",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a4-5189405",
+    "floorplan_note": "A4",
+    "prices": [
+      {
+        "price": "4142",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0520",
+    "building": "1grove",
+    "size": "786",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a4-5189405",
+    "floorplan_note": "A4",
+    "prices": [
+      {
+        "price": "4157",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0620",
+    "building": "1grove",
+    "size": "786",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a4-5189405",
+    "floorplan_note": "A4",
+    "prices": [
+      {
+        "price": "4222",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0720",
+    "building": "1grove",
+    "size": "786",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a4-5189405",
+    "floorplan_note": "A4",
+    "prices": [
+      {
+        "price": "4237",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0820",
+    "building": "1grove",
+    "size": "786",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a4-5189405",
+    "floorplan_note": "A4",
+    "prices": [
+      {
+        "price": "4252",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1102",
+    "building": "1grove",
+    "size": "808",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a5d-5189406",
+    "floorplan_note": "A5D",
+    "prices": [
+      {
+        "price": "4198",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1103",
+    "building": "1grove",
+    "size": "808",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a5d-5189406",
+    "floorplan_note": "A5D",
+    "prices": [
+      {
+        "price": "4398",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1202",
+    "building": "1grove",
+    "size": "808",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a5d-5189406",
+    "floorplan_note": "A5D",
+    "prices": [
+      {
+        "price": "4363",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1203",
+    "building": "1grove",
+    "size": "808",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a5d-5189406",
+    "floorplan_note": "A5D",
+    "prices": [
+      {
+        "price": "4563",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1204",
+    "building": "1grove",
+    "size": "808",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a5d-5189406",
+    "floorplan_note": "A5D",
+    "prices": [
+      {
+        "price": "4363",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0319",
+    "building": "1grove",
+    "size": "887",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a6d-5189407",
+    "floorplan_note": "A6D",
+    "prices": [
+      {
+        "price": "4623",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0519",
+    "building": "1grove",
+    "size": "887",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a6d-5189407",
+    "floorplan_note": "A6D",
+    "prices": [
+      {
+        "price": "4638",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0619",
+    "building": "1grove",
+    "size": "887",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a6d-5189407",
+    "floorplan_note": "A6D",
+    "prices": [
+      {
+        "price": "4703",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0719",
+    "building": "1grove",
+    "size": "887",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a6d-5189407",
+    "floorplan_note": "A6D",
+    "prices": [
+      {
+        "price": "4718",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0819",
+    "building": "1grove",
+    "size": "887",
+    "available_date": "08/05/2024",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a6d-5189407",
+    "floorplan_note": "A6D",
+    "prices": [
+      {
+        "price": "4733",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1010",
+    "building": "1grove",
+    "size": "985",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b1-5189408",
+    "floorplan_note": "B1",
+    "prices": [
+      {
+        "price": "5233",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1011",
+    "building": "1grove",
+    "size": "985",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b1-5189408",
+    "floorplan_note": "B1",
+    "prices": [
+      {
+        "price": "5233",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1107",
+    "building": "1grove",
+    "size": "985",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b1-5189408",
+    "floorplan_note": "B1",
+    "prices": [
+      {
+        "price": "5098",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1109",
+    "building": "1grove",
+    "size": "985",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b1-5189408",
+    "floorplan_note": "B1",
+    "prices": [
+      {
+        "price": "5098",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1112",
+    "building": "1grove",
+    "size": "985",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b1-5189408",
+    "floorplan_note": "B1",
+    "prices": [
+      {
+        "price": "4873",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0207",
+    "building": "1grove",
+    "size": "1007",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b2d-5189409",
+    "floorplan_note": "B2D",
+    "prices": [
+      {
+        "price": "5684",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0507",
+    "building": "1grove",
+    "size": "1007",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b2d-5189409",
+    "floorplan_note": "B2D",
+    "prices": [
+      {
+        "price": "5514",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0607",
+    "building": "1grove",
+    "size": "1007",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b2d-5189409",
+    "floorplan_note": "B2D",
+    "prices": [
+      {
+        "price": "5579",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0707",
+    "building": "1grove",
+    "size": "1007",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b2d-5189409",
+    "floorplan_note": "B2D",
+    "prices": [
+      {
+        "price": "5594",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0807",
+    "building": "1grove",
+    "size": "1007",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b2d-5189409",
+    "floorplan_note": "B2D",
+    "prices": [
+      {
+        "price": "5609",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1015",
+    "building": "1grove",
+    "size": "1039",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b1a-5189410",
+    "floorplan_note": "B1A",
+    "prices": [
+      {
+        "price": "5267",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1113",
+    "building": "1grove",
+    "size": "1039",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b1a-5189410",
+    "floorplan_note": "B1A",
+    "prices": [
+      {
+        "price": "5132",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1213",
+    "building": "1grove",
+    "size": "1039",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b1a-5189410",
+    "floorplan_note": "B1A",
+    "prices": [
+      {
+        "price": "5297",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "PH12",
+    "building": "1grove",
+    "size": "1039",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b1a-5189410",
+    "floorplan_note": "B1A",
+    "prices": [
+      {
+        "price": "5422",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0314",
+    "building": "1grove",
+    "size": "1047",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b3-5189411",
+    "floorplan_note": "B3",
+    "prices": [
+      {
+        "price": "5391",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0614",
+    "building": "1grove",
+    "size": "1047",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b3-5189411",
+    "floorplan_note": "B3",
+    "prices": [
+      {
+        "price": "5571",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "0714",
+    "building": "1grove",
+    "size": "1047",
+    "available_date": "08/05/2024",
+    "floorplan_type": "2b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/b3-5189411",
+    "floorplan_note": "B3",
+    "prices": [
+      {
+        "price": "5586",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1012",
+    "building": "1grove",
+    "size": "1376",
+    "available_date": "08/05/2024",
+    "floorplan_type": "3b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/c1-5189412",
+    "floorplan_note": "C1",
+    "prices": [
+      {
+        "price": "8035",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  },
+  {
+    "unit": "1210",
+    "building": "1grove",
+    "size": "1376",
+    "available_date": "08/05/2024",
+    "floorplan_type": "3b2b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/c1-5189412",
+    "floorplan_note": "C1",
+    "prices": [
+      {
+        "price": "8065",
+        "price_range": "",
+        "date_fetched": "2024-07-24 21:37:08"
+      }
+    ]
+  }
+]

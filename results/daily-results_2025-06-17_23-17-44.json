@@ -1,0 +1,114 @@
+[
+  {
+    "unit": "0306",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "08/18/2025",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s2-5189400",
+    "floorplan_note": "S2",
+    "prices": [
+      {
+        "price": "2995",
+        "price_range": "",
+        "date_fetched": "2025-06-17 23:17:44"
+      }
+    ]
+  },
+  {
+    "unit": "0704",
+    "building": "1grove",
+    "size": "485",
+    "available_date": "09/26/2025",
+    "floorplan_type": "0b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/s2-5189400",
+    "floorplan_note": "S2",
+    "prices": [
+      {
+        "price": "3152",
+        "price_range": "",
+        "date_fetched": "2025-06-17 23:17:44"
+      }
+    ]
+  },
+  {
+    "unit": "0712",
+    "building": "1grove",
+    "size": "657",
+    "available_date": "08/03/2025",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a1-5211142",
+    "floorplan_note": "A1",
+    "prices": [
+      {
+        "price": "3984",
+        "price_range": "",
+        "date_fetched": "2025-06-17 23:17:44"
+      }
+    ]
+  },
+  {
+    "unit": "0719",
+    "building": "1grove",
+    "size": "887",
+    "available_date": "01/01/1900",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a6d-5189407",
+    "floorplan_note": "A6D",
+    "prices": [
+      {
+        "price": "4768",
+        "price_range": "",
+        "date_fetched": "2025-06-17 23:17:44"
+      }
+    ]
+  },
+  {
+    "unit": "1214",
+    "building": "1grove",
+    "size": "887",
+    "available_date": "01/01/1900",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a6d-5189407",
+    "floorplan_note": "A6D",
+    "prices": [
+      {
+        "price": "4993",
+        "price_range": "",
+        "date_fetched": "2025-06-17 23:17:44"
+      }
+    ]
+  },
+  {
+    "unit": "0319",
+    "building": "1grove",
+    "size": "887",
+    "available_date": "01/01/1900",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a6d-5189407",
+    "floorplan_note": "A6D",
+    "prices": [
+      {
+        "price": "4673",
+        "price_range": "",
+        "date_fetched": "2025-06-17 23:17:44"
+      }
+    ]
+  },
+  {
+    "unit": "0519",
+    "building": "1grove",
+    "size": "887",
+    "available_date": "01/01/1900",
+    "floorplan_type": "1b1b",
+    "floorplan_link": "http://www.greystar.com//properties/jersey-city-nj/one-grove/floorplans/a6d-5189407",
+    "floorplan_note": "A6D",
+    "prices": [
+      {
+        "price": "4688",
+        "price_range": "",
+        "date_fetched": "2025-06-17 23:17:44"
+      }
+    ]
+  }
+]

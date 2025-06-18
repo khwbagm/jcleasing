@@ -2,7 +2,7 @@
 
 from typing import Dict, List, Optional, Set
 
-from logzero import logger
+from loguru import logger
 
 from jcleasing.browser.context import WebDriverContext
 from jcleasing.core.registry import ScraperRegistry

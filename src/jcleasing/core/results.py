@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 from typing import Dict, List, Optional
 
-from logzero import logger
+from loguru import logger
 
 from jcleasing.models.units import UnitInfo
 

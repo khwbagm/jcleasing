@@ -4,10 +4,9 @@ from typing import Dict, List, Type, Optional
 
 from jcleasing.scrapers.base import BaseScraper
 from jcleasing.scrapers.columbus import ColumbusScraper
-from jcleasing.scrapers.grand import Grand235Scraper
+from jcleasing.scrapers.kre import Grand235Scraper, Park18Scraper
 from jcleasing.scrapers.grove import GroveScraper
 from jcleasing.scrapers.haus25 import Haus25Scraper
-from jcleasing.scrapers.park import Park18Scraper
 from jcleasing.scrapers.warren import WarrenAtYorkScraper
 
 

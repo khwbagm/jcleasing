@@ -36,8 +36,8 @@ class ScraperRegistry:
             # "haus25": Haus25Scraper,
             # "1grove": GroveScraper,
             # "warrenatyork": WarrenAtYorkScraper,
-            # "18park": Park18Scraper,
-            "235grand": Grand235Scraper,
+            "18park": Park18Scraper,
+            # "235grand": Grand235Scraper,
         }
 
         for name, scraper_class in default_scrapers.items():

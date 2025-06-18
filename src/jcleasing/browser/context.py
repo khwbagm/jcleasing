@@ -1,7 +1,7 @@
 """WebDriver context management for the jcleasing package."""
 from contextlib import contextmanager
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+import undetected_chromedriver as uc
+from selenium.webdriver.chrome.options import Options
 from logzero import logger
 
 
@@ -28,7 +28,7 @@ class WebDriverContext:
         options.add_argument("--disable-dev-shm-usage")
         
         try:
-            self.driver = webdriver.Firefox(options=options)
+            self.driver = uc.Chrome(options=options)
             # Set reasonable timeouts
             self.driver.set_page_load_timeout(30)
             self.driver.implicitly_wait(10)

@@ -1,1 +1,0 @@
-wsl -d Ubuntu -e zsh -c "cd /mnt/e/Codes/jcleasing && ~/.local/pyvenv/bin/python3 main.py"

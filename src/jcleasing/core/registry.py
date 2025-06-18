@@ -32,11 +32,11 @@ class ScraperRegistry:
     def _register_default_scrapers(self):
         """Register all default scrapers."""
         default_scrapers = {
-            "columbus579": ColumbusScraper,
-            "haus25": Haus25Scraper,
-            "1grove": GroveScraper,
-            "warrenatyork": WarrenAtYorkScraper,
-            "18park": Park18Scraper,
+            # "columbus579": ColumbusScraper,
+            # "haus25": Haus25Scraper,
+            # "1grove": GroveScraper,
+            # "warrenatyork": WarrenAtYorkScraper,
+            # "18park": Park18Scraper,
             "235grand": Grand235Scraper,
         }
 

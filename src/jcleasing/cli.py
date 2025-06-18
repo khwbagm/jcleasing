@@ -4,7 +4,7 @@ import argparse
 import sys
 from typing import List, Optional
 
-from logzero import logger
+from loguru import logger
 
 from jcleasing.core.runner import ScrapingRunner
 from jcleasing.core.registry import ScraperRegistry

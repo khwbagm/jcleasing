@@ -1,6 +1,6 @@
 """Decorators for the jcleasing package."""
 from functools import wraps
-from logzero import logger
+from loguru import logger
 
 
 def exception_helper(func):

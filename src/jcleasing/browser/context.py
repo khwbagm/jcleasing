@@ -2,7 +2,7 @@
 from contextlib import contextmanager
 import undetected_chromedriver as uc
 from selenium.webdriver.chrome.options import Options
-from logzero import logger
+from loguru import logger
 
 
 class WebDriverContext:

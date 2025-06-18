@@ -34,8 +34,8 @@ class ScraperRegistry:
             # "columbus579": ColumbusScraper,
             # "haus25": Haus25Scraper,
             # "1grove": GroveScraper,
-            # "warrenatyork": WarrenAtYorkScraper,
-            "18park": Park18Scraper,
+            "warrenatyork": WarrenAtYorkScraper,
+            # "18park": Park18Scraper,
             # "235grand": Grand235Scraper,
         }
 

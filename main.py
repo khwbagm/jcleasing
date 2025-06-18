@@ -12,6 +12,8 @@ from logzero import logger
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
 date_fetched = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -419,29 +421,114 @@ def get_units_235grand(driver):
         )
         return unit_info
 
+    def _scrape_floorplan(driver, url, max_retries=3):
+        last_exception = None
+        for attempt in range(max_retries):
+            try:
+                driver.get(url)
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.CLASS_NAME, "unit-container"))
+                )
+                return [
+                    _parse_unit(item.text, url)
+                    for item in driver.find_elements(by=By.CLASS_NAME, value="unit-container")
+                ]
+            except Exception as e:
+                last_exception = e
+                if hasattr(logger, 'warning'):
+                    logger.warning(f"Attempt {attempt + 1} failed for {url}: {e}")
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)  # Exponential backoff
+
+        error_msg = f"Failed to scrape {url} after {max_retries} attempts"
+        if hasattr(logger, 'error'):
+            logger.error(error_msg)
+        raise last_exception or Exception(error_msg)
+
     units = {}
-    for building_url in [
+    building_urls = [
         "https://www.235grand.com/floorplans/studio",
         "https://www.235grand.com/floorplans/1-bedroom---1-bathroom",
         "https://www.235grand.com/floorplans/2-bedroom---2-bathroom",
-    ]:
-        driver.get(building_url)
-        input()
-        for item in driver.find_elements(by=By.CLASS_NAME, value="unit-container"):
-            unit = _parse_unit(item.text, building_url)
-            units[unit.unit] = unit
+    ]
+
+    for url in building_urls:
+        try:
+            scraped_units = _scrape_floorplan(driver, url)
+            for unit in scraped_units:
+                units[unit.unit] = unit
+        except Exception as e:
+            logger.error(f"Error scraping {url}: {e}")
+            continue  # Continue with next URL even if one fails
+
     return list(units.values())
 
 
+class WebDriverContext:
+    def __init__(self, debug=False):
+        self.debug = debug
+        self.driver = None
+        
+    def __enter__(self):
+        max_retries = 3
+        last_exception = None
+        
+        for attempt in range(max_retries):
+            try:
+                options = Options()
+                if not self.debug:
+                    options.add_argument("--headless")
+                
+                self.driver = webdriver.Firefox(options=options)
+                self.driver.set_page_load_timeout(30)  # 30 seconds timeout
+                return self.driver
+                
+            except Exception as e:
+                last_exception = e
+                if hasattr(logger, 'warning'):
+                    logger.warning(f"Attempt {attempt + 1} failed to initialize WebDriver: {e}")
+                elif 'logger' in globals() and hasattr(logger, 'warning'):
+                    logger.warning(f"Attempt {attempt + 1} failed to initialize WebDriver: {e}")
+                else:
+                    print(f"[WARNING] Attempt {attempt + 1} failed to initialize WebDriver: {e}")
+                
+                if attempt < max_retries - 1:  # Don't wait after the last attempt
+                    time.sleep(2 ** attempt)  # Exponential backoff
+        
+        error_msg = f"Failed to initialize WebDriver after {max_retries} attempts"
+        if hasattr(logger, 'error'):
+            logger.error(error_msg)
+        elif 'logger' in globals() and hasattr(logger, 'error'):
+            logger.error(error_msg)
+        raise Exception(error_msg) from last_exception
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if self.driver:
+            try:
+                self.driver.quit()
+            except Exception as e:
+                error_msg = f"Error while quitting WebDriver: {e}"
+                if hasattr(logger, 'error'):
+                    logger.error(error_msg)
+                elif 'logger' in globals() and hasattr(logger, 'error'):
+                    logger.error(error_msg)
+                else:
+                    print(f"[ERROR] {error_msg}")
+
 def newDriver(debug=False):
-    options = Options()
-    # options.headless = True
-    # options.add_argument("--headless")
-    driver = webdriver.Firefox(options=options)
-    return driver
+    """
+    Create a new WebDriver instance with retry logic.
+    Note: Prefer using the context manager pattern:
+    with newDriver(debug=False) as driver:
+        # use driver here
+    """
+    return WebDriverContext(debug=debug)
 
 
 def main():
+    # Create results directory if it doesn't exist
+    os.makedirs("results", exist_ok=True)
+    
     funcs = [
         # get_units_235grand,
         # get_units_18park,
@@ -450,22 +537,51 @@ def main():
         get_units_haus25,
         get_units_1grove,
     ]
+    
     results = []
-    dt = os.path.join(
+    output_file = os.path.join(
         "results",
-        "daily-results_" + str(datetime.now()).replace(" ", "_").split(".")[0],
-    ).replace(":", "_")
-    with newDriver(debug=False) as driver:
-        for fc in funcs:
-            print(fc.__name__)
-            try:
-                results.extend([asdict(x) for x in fc(driver)])
-            except Exception as e:
-                print(fc.__name__)
-                print(e)
-                print()
-    with open(dt + ".json", "w") as f:
-        json.dump(results, f, indent=2)
+        f"daily-results_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json"
+    )
+    
+    def log(level, message, **kwargs):
+        if hasattr(logger, level):
+            getattr(logger, level)(message, **kwargs)
+        else:
+            print(f"[{level.upper()}] {message}")
+    
+    try:
+        with newDriver(debug=False) as driver:
+            for scraper_func in funcs:
+                func_name = scraper_func.__name__
+                log('info', f"Starting scraper: {func_name}")
+                
+                try:
+                    scraped_data = scraper_func(driver)
+                    results.extend(asdict(x) for x in scraped_data)
+                    log('info', f"Successfully scraped {len(scraped_data)} items from {func_name}")
+                except Exception as e:
+                    log('error', f"Error in {func_name}: {e}")
+                    if hasattr(logger, 'exception'):
+                        logger.exception("Stack trace:")
+                    continue  # Continue with next scraper even if one fails
+                    
+    except Exception as e:
+        log('critical', f"Fatal error in main execution: {e}")
+        if hasattr(logger, 'exception'):
+            logger.exception("Stack trace:")
+        raise
+        
+    # Save results
+    try:
+        with open(output_file, 'w') as f:
+            json.dump(results, f, indent=2)
+        log('info', f"Successfully saved {len(results)} items to {output_file}")
+    except IOError as e:
+        log('error', f"Failed to save results: {e}")
+        if hasattr(logger, 'exception'):
+            logger.exception("Stack trace:")
+        raise
 
 
 if __name__ == "__main__":

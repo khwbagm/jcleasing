@@ -1,4 +1,4 @@
-"""Scraper for 235 Grand building."""
+"""Scraper for KRE building."""
 
 from datetime import datetime
 from typing import List, Optional
@@ -13,18 +13,11 @@ from jcleasing.scrapers.base import BaseScraper
 from jcleasing.utils.helpers import get_current_timestamp, shorten_floorplan_type, wait
 
 
-class Grand235Scraper(BaseScraper):
-    """Scraper for 235 Grand building."""
-
-    base = "https://www.235grand.com"
-    floorplan_types = [
-        "studio",
-        "1-bedroom---1-bathroom",
-        "2-bedroom---2-bathroom",
-    ]
+class KREScraper(BaseScraper):
+    """Scraper for KRE building."""
 
     def get_units(self) -> List[UnitInfo]:
-        """Retrieve all available units from 235 Grand building."""
+        """Retrieve all available units from KRE building."""
         units = []
 
         for floorplan_type in self.floorplan_types:
@@ -114,3 +107,21 @@ class Grand235Scraper(BaseScraper):
         except ValueError:
             logger.warning(f"Could not parse date: {date_str}")
             return "1900-01-01"
+
+
+class Grand235Scraper(KREScraper):
+    base = "https://www.235grand.com"
+    floorplan_types = [
+        "studio",
+        "1-bedroom---1-bathroom",
+        "2-bedroom---2-bathroom",
+    ]
+
+
+class Park18Scraper(KREScraper):
+    base = "https://www.18park.com"
+    floorplan_types = [
+        "studio",
+        "1-bed-1-bath",
+        "2-bed-2-bath",
+    ]

@@ -1,7 +1,25 @@
 [project]
 name = "jcleasing"
 version = "0.1.0"
-description = ""
+description = "A web scraper for apartment listings"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = "^3.8"
+
+[tool.poetry]
+name = "jcleasing"
+version = "0.1.0"
+description = "A web scraper for apartment listings"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "jcleasing", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^4.9.0"
+logzero = "^1.7.0"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

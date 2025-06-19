@@ -1,8 +1,7 @@
 """WebDriver context management for the jcleasing package."""
 
 from contextlib import contextmanager
-import undetected_chromedriver as uc
-from selenium.webdriver.chrome.options import Options
+from seleniumbase import Driver
 from loguru import logger
 
 
@@ -16,43 +15,44 @@ class WebDriverContext:
             debug: Whether to run in debug mode (visible browser).
         """
         self.debug = debug
-        self.driver = None
+        self.driver_manager = None
 
     def __enter__(self):
         """Enter the context and create a WebDriver instance."""
-        options = Options()
-        if not self.debug:
-            options.add_argument("--headless")
-
-        # Set some reasonable defaults
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-
-        # For network requests interception
-        options.add_argument("--enable-logging")
-        options.add_argument("--log-level=0")
-        options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
-
         try:
-            self.driver = uc.Chrome(options=options)
-            self.driver.execute_cdp_cmd("Network.enable", {})
+            # Use SeleniumBase Driver with UC mode
+            self.driver_manager = Driver(
+                uc=True,  # Enable undetected mode
+                headless=not self.debug,  # Headless unless debug
+                log_cdp_events=True,  # Enable CDP logging for AJAX interception
+                no_sandbox=True,  # Standard Chrome option
+                disable_gpu=False,  # Keep GPU enabled unless needed
+            )
+            
+            # Enable network logging for AJAX interception
+            self.driver_manager.execute_cdp_cmd("Network.enable", {})
+            
             # Set reasonable timeouts
-            self.driver.set_page_load_timeout(30)
-            self.driver.implicitly_wait(10)
-            return self.driver
+            self.driver_manager.set_page_load_timeout(30)
+            self.driver_manager.implicitly_wait(10)
+            
+            return self.driver_manager
         except Exception as e:
             logger.error(f"Failed to initialize WebDriver: {e}")
-            if self.driver:
-                self.driver.quit()
+            if self.driver_manager:
+                try:
+                    self.driver_manager.quit()
+                except:
+                    pass
             raise
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         """Exit the context and clean up the WebDriver."""
-        if self.driver:
+        if self.driver_manager:
             try:
-                self.driver.quit()
+                self.driver_manager.quit()
             except Exception as e:
-                logger.error(f"Error while quitting WebDriver: {e}")
+                logger.error(f"Error while cleaning up WebDriver: {e}")
 
         # Don't suppress exceptions
         return False

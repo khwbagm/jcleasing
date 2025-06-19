@@ -28,7 +28,7 @@ jobs:
           version: "latest"
           
       - name: Set up Python with uv
-        run: uv python install 3.11
+        run: uv python install 3.13
         
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1
@@ -68,7 +68,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update results: $TIMESTAMP
+            git commit -m "[data] update results: $TIMESTAMP
 
             Run triggered by: ${{ github.event_name }}
             ${{ github.event_name == 'workflow_dispatch' && format('Reason: {0}', inputs.reason) || '' }}"

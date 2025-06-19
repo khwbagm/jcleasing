@@ -115,7 +115,7 @@ class ColumbusScraper(BaseScraper):
 
             # Create price info
             price_info = PriceInfo(
-                price=shorten_price(price),
+                price=int(shorten_price(price)),
                 price_range="",
                 date_fetched=get_current_timestamp(),
             )

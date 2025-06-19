@@ -43,7 +43,7 @@ class WarrenAtYorkScraper(BaseScraper):
                     units.append(unit_info)
                     logger.debug(f"Successfully parsed unit: {unit_info.unit}")
             except Exception as e:
-                logger.error(f"Error parsing unit: {e}")
+                logger.error(f"Error parsing unit: {e}", exc_info=True)
                 continue
 
         logger.info(f"Found {len(units)} units")

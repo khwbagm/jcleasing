@@ -1,13 +1,10 @@
 """Scraper for Columbus 579 building."""
 
 import re
-from typing import List, Dict, Any, Optional
-from datetime import datetime
+from typing import List, Any, Optional
 
-from selenium.webdriver.remote.webdriver import WebDriver
+from loguru import logger
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 from jcleasing.models.units import UnitInfo, PriceInfo
 from jcleasing.scrapers.base import BaseScraper
@@ -30,54 +27,110 @@ class ColumbusScraper(BaseScraper):
 
     def get_units(self) -> List[UnitInfo]:
         """Get all available units from Columbus 579."""
+        logger.info("Starting Columbus units scraping")
         units = []
         for url_building in self.BUILDING_URLS:
             building_name = url_building.split("/")[-1]
-            floorplan_urls = self._get_available_floorplans(url_building)
-            for floorplan_url in floorplan_urls:
-                units.extend(self._get_units_in_floorplan(floorplan_url, building_name))
+            logger.info(f"Processing building: {building_name}")
+            try:
+                floorplan_urls = self._get_available_floorplans(url_building)
+                logger.debug(
+                    f"Found {len(floorplan_urls)} floorplans for {building_name}"
+                )
+                for floorplan_url in floorplan_urls:
+                    try:
+                        building_units = self._get_units_in_floorplan(
+                            floorplan_url, building_name
+                        )
+                        units.extend(building_units)
+                        logger.debug(
+                            f"Found {len(building_units)} units in floorplan {floorplan_url}"
+                        )
+                    except Exception as e:
+                        logger.error(
+                            f"Error processing floorplan {floorplan_url}: {str(e)}",
+                            exc_info=True,
+                        )
+            except Exception as e:
+                logger.error(
+                    f"Error processing building {building_name}: {str(e)}",
+                    exc_info=True,
+                )
+
+        logger.info(f"Found {len(units)} units in total")
         return units
 
     def _get_available_floorplans(self, building_url: str) -> List[str]:
         """Get all available floorplan URLs for a building."""
         url = f"{building_url}#floor-plans-property"
-        self.driver.get(url)
-        wait()
+        logger.debug(f"Fetching floorplans from {url}")
 
-        floorplan_boxes = self.driver.find_elements(
-            by=By.CSS_SELECTOR, value="div.floorplans-widget__box"
-        )
+        try:
+            self.driver.get(url)
+            wait()
 
-        results = []
-        for box in floorplan_boxes:
-            links = box.find_elements(by=By.CSS_SELECTOR, value="a")
-            for link in links:
-                href = link.get_attribute("href")
-                if href and "/floorplan/" in href:
-                    results.append(href)
-        return results
+            floorplan_boxes = self.driver.find_elements(
+                by=By.CSS_SELECTOR, value="div.floorplans-widget__box"
+            )
+            logger.debug(f"Found {len(floorplan_boxes)} floorplan boxes")
+
+            results = []
+            for box in floorplan_boxes:
+                links = box.find_elements(by=By.CSS_SELECTOR, value="a")
+                for link in links:
+                    href = link.get_attribute("href")
+                    if href and "/floorplan/" in href:
+                        results.append(href)
+
+            logger.debug(f"Found {len(results)} floorplan URLs")
+            return results
+
+        except Exception as e:
+            logger.error(
+                f"Error fetching floorplans from {url}: {str(e)}", exc_info=True
+            )
+            return []
 
     def _get_units_in_floorplan(
         self, floorplan_url: str, building_name: str
     ) -> List[UnitInfo]:
         """Get all units from a specific floorplan."""
-        self.driver.get(f"{floorplan_url}#units")
-        wait()
+        logger.debug(f"Fetching units from floorplan: {floorplan_url}")
 
-        units = self.driver.find_elements(
-            by=By.CSS_SELECTOR, value="article.splide__slide"
-        )
+        try:
+            self.driver.get(f"{floorplan_url}#units")
+            wait()
 
-        results = {}
-        for unit in units:
-            unit_info = self._parse_unit_html(unit)
-            if unit_info:
-                unit_info.building = building_name
-                results[unit_info.unit] = unit_info
-        return list(results.values())
+            units = self.driver.find_elements(
+                by=By.CSS_SELECTOR, value="article.splide__slide"
+            )
+            logger.debug(f"Found {len(units)} unit elements")
+
+            results = {}
+            for unit in units:
+                try:
+                    unit_info = self._parse_unit_html(unit)
+                    if unit_info:
+                        unit_info.building = building_name
+                        results[unit_info.unit] = unit_info
+                        logger.debug(f"Successfully parsed unit: {unit_info.unit}")
+                except Exception as e:
+                    logger.error(f"Error parsing unit element: {str(e)}", exc_info=True)
+
+            logger.info(f"Parsed {len(results)} unique units from floorplan")
+            return list(results.values())
+
+        except Exception as e:
+            logger.error(
+                f"Error fetching units from floorplan {floorplan_url}: {str(e)}",
+                exc_info=True,
+            )
+            return []
 
     def _parse_unit_html(self, unit_element: Any) -> Optional[UnitInfo]:
         """Parse unit information from HTML element."""
+        logger.debug("Parsing unit HTML element")
+
         try:
             # Try to parse using the first format
             try:
@@ -85,7 +138,9 @@ class ColumbusScraper(BaseScraper):
                 price, size_type = price_n_size_type.split(" ", 1)
                 size, floorplan_type = size_type.split(" sq. ft. ")
                 unit = unit.split(" ")[1]
+                logger.debug(f"Parsed unit {unit} using first format")
             except ValueError:
+                logger.debug("First format parsing failed, trying alternative format")
                 # Fall back to second format
                 text = unit_element.get_attribute("innerHTML").strip()
                 lines = self._remove_html_tags(text).split("\n")
@@ -96,8 +151,10 @@ class ColumbusScraper(BaseScraper):
                     aval, unit = aval_unit.lower().split("unit")
                     aval = aval.strip()
                     unit = unit.strip()
+                    logger.debug(f"Parsed unit {unit} using 5-value format")
                 elif len(vals) == 6:
                     aval, unit, price, size, floorplan_type, _ = vals
+                    logger.debug(f"Parsed unit {unit} using 6-value format")
                 else:
                     return None
 

@@ -2,6 +2,13 @@ name: Scraper
 on:
   schedule:
     - cron: '0 */4 * * *'
+  workflow_dispatch:  # Enables manual trigger
+    inputs:
+      reason:
+        description: 'Reason for manual run'
+        required: false
+        default: 'Manual trigger'
+        type: string
 
 jobs:
   scrape:

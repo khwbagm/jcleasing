@@ -1,8 +1,8 @@
-name: Scraper
+name: Python Script with Chrome - Store Results
 on:
   schedule:
-    - cron: '0 */4 * * *'
-  workflow_dispatch:  # Enables manual trigger
+    - cron: '0 */4 * * *'  # Run every 4 hours
+  workflow_dispatch:  # Manual trigger
     inputs:
       reason:
         description: 'Reason for manual run'
@@ -30,25 +30,15 @@ jobs:
       - name: Set up Python with uv
         run: uv python install 3.11
         
-      - name: Setup Chrome and ChromeDriver
-        run: |
-          # Install Chrome
-          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
           
-          # Install ChromeDriver
-          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
-          CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION%%.*}")
-          wget -N "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip"
-          unzip chromedriver_linux64.zip
-          sudo mv chromedriver /usr/local/bin/
-          sudo chmod +x /usr/local/bin/chromedriver
-          
-          # Verify installations
-          google-chrome --version
-          chromedriver --version
+      - name: Setup ChromeDriver  
+        uses: nanasess/setup-chromedriver@v2
+        with:
+          chromedriver-version: 'latest'
         
       - name: Install dependencies
         run: uv sync
@@ -56,20 +46,51 @@ jobs:
       - name: Create results directory
         run: mkdir -p results
         
-      - name: Setup virtual display
+      - name: Debug environment
         run: |
-          sudo apt-get update
-          sudo apt-get install -y xvfb
-          export DISPLAY=:99
-          Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
-          sleep 3
+          echo "=== System Information ==="
+          uname -a
+          echo "=== Chrome and ChromeDriver ==="
+          google-chrome --version
+          chromedriver --version
+          which google-chrome
+          which chromedriver
+          echo "=== Environment Variables ==="
+          env | grep -E "(DISPLAY|CHROME|PATH)" | sort
+          echo "=== Network Test ==="
+          curl -I https://google.com || echo "Network test failed"
         
-      - name: Run Python script
+      - name: Test WebDriver creation
+        run: |
+          uv run python -c "
+          from selenium import webdriver
+          from selenium.webdriver.chrome.options import Options
+          
+          print('Testing WebDriver creation...')
+          chrome_options = Options()
+          chrome_options.add_argument('--headless')
+          chrome_options.add_argument('--no-sandbox')
+          chrome_options.add_argument('--disable-dev-shm-usage')
+          chrome_options.add_argument('--disable-gpu')
+          
+          try:
+              driver = webdriver.Chrome(options=chrome_options)
+              print('✅ WebDriver created successfully')
+              driver.get('https://httpbin.org/get')
+              print('✅ Successfully loaded test page')
+              print('Page title:', driver.title)
+              driver.quit()
+              print('✅ WebDriver closed successfully')
+          except Exception as e:
+              print(f'❌ WebDriver test failed: {e}')
+              import traceback
+              traceback.print_exc()
+          "
+        
+      - name: Run Python script with debug
         run: uv run python your_script.py
         env:
-          DISPLAY: :99
-          CHROME_BIN: /usr/bin/google-chrome
-          CHROMEDRIVER_PATH: /usr/local/bin/chromedriver
+          DEBUG: "true"
         
       - name: Upload artifacts (backup)
         uses: actions/upload-artifact@v4

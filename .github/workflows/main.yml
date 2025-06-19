@@ -35,16 +35,8 @@ jobs:
         with:
           chrome-version: stable
           
-      - name: Setup ChromeDriver  
-        uses: nanasess/setup-chromedriver@v2
-        with:
-          chromedriver-version: 'latest'
-        
       - name: Install dependencies
         run: uv sync
-        
-      - name: Create results directory
-        run: mkdir -p results
         
       - name: Debug environment
         run: |
@@ -52,52 +44,14 @@ jobs:
           uname -a
           echo "=== Chrome and ChromeDriver ==="
           google-chrome --version
-          chromedriver --version
           which google-chrome
-          which chromedriver
           echo "=== Environment Variables ==="
           env | grep -E "(DISPLAY|CHROME|PATH)" | sort
           echo "=== Network Test ==="
           curl -I https://google.com || echo "Network test failed"
         
-      - name: Test WebDriver creation
-        run: |
-          uv run python -c "
-          from selenium import webdriver
-          from selenium.webdriver.chrome.options import Options
-          
-          print('Testing WebDriver creation...')
-          chrome_options = Options()
-          chrome_options.add_argument('--headless')
-          chrome_options.add_argument('--no-sandbox')
-          chrome_options.add_argument('--disable-dev-shm-usage')
-          chrome_options.add_argument('--disable-gpu')
-          
-          try:
-              driver = webdriver.Chrome(options=chrome_options)
-              print('✅ WebDriver created successfully')
-              driver.get('https://httpbin.org/get')
-              print('✅ Successfully loaded test page')
-              print('Page title:', driver.title)
-              driver.quit()
-              print('✅ WebDriver closed successfully')
-          except Exception as e:
-              print(f'❌ WebDriver test failed: {e}')
-              import traceback
-              traceback.print_exc()
-          "
-        
       - name: Run Python script with debug
-        run: uv run python your_script.py
-        env:
-          DEBUG: "true"
-        
-      - name: Upload artifacts (backup)
-        uses: actions/upload-artifact@v4
-        with:
-          name: script-results-${{ github.run_number }}
-          path: results/
-          retention-days: 30
+        run: uv run python main.py
         
       - name: Commit and push results
         run: |

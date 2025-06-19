@@ -1,6 +1,5 @@
 """Scraper for KRE building."""
 
-from datetime import datetime
 from typing import List, Optional
 
 from loguru import logger
@@ -10,6 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from jcleasing.models.units import PriceInfo, UnitInfo
 from jcleasing.scrapers.base import BaseScraper
+from jcleasing.utils.basics import parse_availability_date
 from jcleasing.utils.helpers import get_current_timestamp, shorten_floorplan_type, wait
 
 
@@ -82,7 +82,7 @@ class KREScraper(BaseScraper):
         return UnitInfo(
             unit=unit_number,
             building="235Grand",
-            available_date=self._parse_available_date(available_date),
+            available_date=parse_availability_date(available_date),
             floorplan_type=floorplan_type,
             prices=[
                 PriceInfo(
@@ -92,21 +92,6 @@ class KREScraper(BaseScraper):
                 )
             ],
         )
-
-    @staticmethod
-    def _parse_available_date(date_str: str) -> str:
-        """Parse the available date string into ISO format."""
-        if not date_str or "now" in date_str.lower():
-            return "1900-01-01"
-
-        try:
-            # Remove "Available" prefix and parse the date
-            date_part = date_str.lower().replace("available", "").strip()
-            date_obj = datetime.strptime(date_part, "%m/%d/%Y")
-            return date_obj.strftime("%Y-%m-%d")
-        except ValueError:
-            logger.warning(f"Could not parse date: {date_str}")
-            return "1900-01-01"
 
 
 class Grand235Scraper(KREScraper):

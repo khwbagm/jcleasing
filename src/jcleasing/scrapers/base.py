@@ -2,6 +2,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Optional
 from selenium.webdriver.remote.webdriver import WebDriver
+from selenium.webdriver.common.by import By
 
 from jcleasing.models.units import UnitInfo, PriceInfo
 from jcleasing.utils.decorators import exception_helper
@@ -40,7 +41,7 @@ class BaseScraper(ABC):
             Text content of the element or default value.
         """
         try:
-            elem = element.find_element_by_css_selector(selector)
+            elem = element.find_element(By.CSS_SELECTOR, selector)
             return elem.text.strip() if elem else default
         except Exception:
             return default
@@ -59,7 +60,7 @@ class BaseScraper(ABC):
             Attribute value or default.
         """
         try:
-            elem = element.find_element_by_css_selector(selector)
+            elem = element.find_element(By.CSS_SELECTOR, selector)
             return elem.get_attribute(attribute) or default
         except Exception:
             return default

@@ -11,27 +11,113 @@ on:
         type: string
 
 jobs:
-  scrape:
+  run-script:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required for pushing commits
+    
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Install uv
         uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+          
+      - name: Set up Python with uv
+        run: uv python install 3.11
         
-      - name: Set up Python
-        run: uv python install 3.13
-        
-      - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v1
-        
-      - name: Setup ChromeDriver
-        uses: nanasess/setup-chromedriver@v2
+      - name: Setup Chrome and ChromeDriver
+        run: |
+          # Install Chrome
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          
+          # Install ChromeDriver
+          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
+          CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION%%.*}")
+          wget -N "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip"
+          unzip chromedriver_linux64.zip
+          sudo mv chromedriver /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
+          
+          # Verify installations
+          google-chrome --version
+          chromedriver --version
         
       - name: Install dependencies
         run: uv sync
         
-      - name: Run script with headless Chrome
-        run: uv run python main.py
+      - name: Create results directory
+        run: mkdir -p results
+        
+      - name: Setup virtual display
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb
+          export DISPLAY=:99
+          Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
+          sleep 3
+        
+      - name: Run Python script
+        run: uv run python your_script.py
         env:
-          DISPLAY: :99  # For headless mode
+          DISPLAY: :99
+          CHROME_BIN: /usr/bin/google-chrome
+          CHROMEDRIVER_PATH: /usr/local/bin/chromedriver
+        
+      - name: Upload artifacts (backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: script-results-${{ github.run_number }}
+          path: results/
+          retention-days: 30
+        
+      - name: Commit and push results
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Add timestamp to commit message
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
+          
+          # Add results directory
+          git add results/
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update results: $TIMESTAMP
+
+            Run triggered by: ${{ github.event_name }}
+            ${{ github.event_name == 'workflow_dispatch' && format('Reason: {0}', inputs.reason) || '' }}"
+            
+            git push
+            echo "Results committed and pushed successfully"
+          fi
+        
+      - name: Print summary
+        run: |
+          echo "## Job Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Timestamp:** $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "- **Reason:** ${{ inputs.reason }}" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "- **Results stored in:** \`results/\` directory" >> $GITHUB_STEP_SUMMARY
+          echo "- **Artifacts:** Available for 30 days" >> $GITHUB_STEP_SUMMARY
+          
+          # List files in results directory
+          if [ -d "results" ] && [ "$(ls -A results)" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Generated Files:" >> $GITHUB_STEP_SUMMARY
+            ls -la results/ | tail -n +2 | while read line; do
+              echo "- \`$line\`" >> $GITHUB_STEP_SUMMARY
+            done
+          fi

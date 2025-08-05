@@ -1,0 +1,1788 @@
+{
+  "columbus579": [
+    {
+      "unit": "1611",
+      "building": "50-columbus",
+      "size": "546",
+      "available_date": "2025-09-30",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3120,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:12"
+        }
+      ]
+    },
+    {
+      "unit": "1606",
+      "building": "50-columbus",
+      "size": "765",
+      "available_date": "2025-10-25",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3735,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:16"
+        }
+      ]
+    },
+    {
+      "unit": "3408",
+      "building": "50-columbus",
+      "size": "812",
+      "available_date": "2025-10-21",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3980,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:20"
+        }
+      ]
+    },
+    {
+      "unit": "3208",
+      "building": "70-columbus",
+      "size": "474",
+      "available_date": "2025-10-19",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3245,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:29"
+        }
+      ]
+    },
+    {
+      "unit": "ph11",
+      "building": "70-columbus",
+      "size": "545",
+      "available_date": "2025-09-23",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3340,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:33"
+        }
+      ]
+    },
+    {
+      "unit": "5001",
+      "building": "70-columbus",
+      "size": "660",
+      "available_date": "2025-10-15",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3935,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:37"
+        }
+      ]
+    },
+    {
+      "unit": "1001",
+      "building": "70-columbus",
+      "size": "660",
+      "available_date": "2025-10-21",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3445,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:37"
+        }
+      ]
+    },
+    {
+      "unit": "4909",
+      "building": "70-columbus",
+      "size": "662",
+      "available_date": "2025-10-02",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3945,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:41"
+        }
+      ]
+    },
+    {
+      "unit": "2903",
+      "building": "70-columbus",
+      "size": "669",
+      "available_date": "2025-09-09",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3765,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:44"
+        }
+      ]
+    },
+    {
+      "unit": "3903",
+      "building": "70-columbus",
+      "size": "669",
+      "available_date": "2025-09-13",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4065,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:44"
+        }
+      ]
+    },
+    {
+      "unit": "4205",
+      "building": "70-columbus",
+      "size": "672",
+      "available_date": "1900-01-01",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4025,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:48"
+        }
+      ]
+    },
+    {
+      "unit": "ph05",
+      "building": "70-columbus",
+      "size": "672",
+      "available_date": "2025-09-11",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4265,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:48"
+        }
+      ]
+    },
+    {
+      "unit": "5007",
+      "building": "70-columbus",
+      "size": "787",
+      "available_date": "2025-10-07",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4405,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:52"
+        }
+      ]
+    },
+    {
+      "unit": "2904",
+      "building": "70-columbus",
+      "size": "905",
+      "available_date": "2025-09-03",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5355,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:56"
+        }
+      ]
+    },
+    {
+      "unit": "4704",
+      "building": "70-columbus",
+      "size": "1086",
+      "available_date": "1900-01-01",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 6195,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:11:59"
+        }
+      ]
+    },
+    {
+      "unit": "3907",
+      "building": "90-columbus",
+      "size": "541",
+      "available_date": "2025-09-16",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3630,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:07"
+        }
+      ]
+    },
+    {
+      "unit": "4309",
+      "building": "90-columbus",
+      "size": "676",
+      "available_date": "1900-01-01",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4020,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:10"
+        }
+      ]
+    },
+    {
+      "unit": "4209",
+      "building": "90-columbus",
+      "size": "676",
+      "available_date": "2025-08-09",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4010,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:10"
+        }
+      ]
+    },
+    {
+      "unit": "2601",
+      "building": "90-columbus",
+      "size": "690",
+      "available_date": "2025-10-11",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3825,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:14"
+        }
+      ]
+    },
+    {
+      "unit": "3001",
+      "building": "90-columbus",
+      "size": "690",
+      "available_date": "2025-10-15",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3865,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:14"
+        }
+      ]
+    },
+    {
+      "unit": "4805",
+      "building": "90-columbus",
+      "size": "701",
+      "available_date": "1900-01-01",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4395,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:17"
+        }
+      ]
+    },
+    {
+      "unit": "3905",
+      "building": "90-columbus",
+      "size": "701",
+      "available_date": "2025-09-11",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4105,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:17"
+        }
+      ]
+    },
+    {
+      "unit": "5005",
+      "building": "90-columbus",
+      "size": "701",
+      "available_date": "2025-10-04",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4415,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:17"
+        }
+      ]
+    },
+    {
+      "unit": "3608",
+      "building": "90-columbus",
+      "size": "704",
+      "available_date": "2025-09-25",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4400,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:21"
+        }
+      ]
+    },
+    {
+      "unit": "4008",
+      "building": "90-columbus",
+      "size": "704",
+      "available_date": "2025-09-25",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4440,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:21"
+        }
+      ]
+    },
+    {
+      "unit": "5006",
+      "building": "90-columbus",
+      "size": "708",
+      "available_date": "2025-08-13",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4240,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:25"
+        }
+      ]
+    },
+    {
+      "unit": "4902",
+      "building": "90-columbus",
+      "size": "716",
+      "available_date": "2025-10-08",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4325,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:28"
+        }
+      ]
+    },
+    {
+      "unit": "1502",
+      "building": "90-columbus",
+      "size": "716",
+      "available_date": "2025-10-11",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3835,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:28"
+        }
+      ]
+    },
+    {
+      "unit": "4102",
+      "building": "90-columbus",
+      "size": "716",
+      "available_date": "2025-10-15",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4095,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:28"
+        }
+      ]
+    },
+    {
+      "unit": "1104",
+      "building": "90-columbus",
+      "size": "995",
+      "available_date": "2025-10-15",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5165,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:32"
+        }
+      ]
+    },
+    {
+      "unit": "4904",
+      "building": "90-columbus",
+      "size": "1033",
+      "available_date": "2025-08-27",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 6065,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:36"
+        }
+      ]
+    },
+    {
+      "unit": "4804",
+      "building": "90-columbus",
+      "size": "1033",
+      "available_date": "2025-09-16",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 6055,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:36"
+        }
+      ]
+    },
+    {
+      "unit": "4204",
+      "building": "90-columbus",
+      "size": "1033",
+      "available_date": "2025-10-28",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5845,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:36"
+        }
+      ]
+    },
+    {
+      "unit": "2610",
+      "building": "90-columbus",
+      "size": "1059",
+      "available_date": "2025-10-15",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5375,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:40"
+        }
+      ]
+    },
+    {
+      "unit": "4710",
+      "building": "90-columbus",
+      "size": "1067",
+      "available_date": "1900-01-01",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5875,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:44"
+        }
+      ]
+    },
+    {
+      "unit": "4610",
+      "building": "90-columbus",
+      "size": "1067",
+      "available_date": "2025-08-13",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5865,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:44"
+        }
+      ]
+    },
+    {
+      "unit": "3510",
+      "building": "90-columbus",
+      "size": "1067",
+      "available_date": "2025-08-18",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5555,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:44"
+        }
+      ]
+    },
+    {
+      "unit": "4703",
+      "building": "90-columbus",
+      "size": "1120",
+      "available_date": "2025-09-11",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 6175,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:47"
+        }
+      ]
+    },
+    {
+      "unit": "4803",
+      "building": "90-columbus",
+      "size": "1120",
+      "available_date": "2025-09-17",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 6185,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:12:47"
+        }
+      ]
+    }
+  ],
+  "haus25": [],
+  "1grove": [],
+  "warrenatyork": [
+    {
+      "unit": "0413",
+      "building": "Warren at York",
+      "size": 0,
+      "available_date": "1900-01-01",
+      "floorplan_type": "a2",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3865.0,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:13:20"
+        }
+      ]
+    },
+    {
+      "unit": "1011",
+      "building": "Warren at York",
+      "size": 0,
+      "available_date": "1900-01-01",
+      "floorplan_type": "a4",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3835.0,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:13:20"
+        }
+      ]
+    },
+    {
+      "unit": "0311",
+      "building": "Warren at York",
+      "size": 0,
+      "available_date": "1900-01-01",
+      "floorplan_type": "a5",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3890.0,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:13:20"
+        }
+      ]
+    },
+    {
+      "unit": "0407",
+      "building": "Warren at York",
+      "size": 0,
+      "available_date": "1900-01-01",
+      "floorplan_type": "b10",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5590.0,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:13:20"
+        }
+      ]
+    },
+    {
+      "unit": "0707",
+      "building": "Warren at York",
+      "size": 0,
+      "available_date": "1900-01-01",
+      "floorplan_type": "b10",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5820.0,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:13:20"
+        }
+      ]
+    },
+    {
+      "unit": "0408",
+      "building": "Warren at York",
+      "size": 0,
+      "available_date": "1900-01-01",
+      "floorplan_type": "b6",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5540.0,
+          "price_range": "",
+          "date_fetched": "2025-08-05 20:13:20"
+        }
+      ]
+    }
+  ],
+  "18park": [
+    {
+      "unit": "0612",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3218",
+          "price_range": "3218 - - 3508",
+          "date_fetched": "2025-08-05 20:13:24"
+        }
+      ]
+    },
+    {
+      "unit": "0312",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-15",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3143",
+          "price_range": "3143 - - 3439",
+          "date_fetched": "2025-08-05 20:13:24"
+        }
+      ]
+    },
+    {
+      "unit": "0412",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-26",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3198",
+          "price_range": "3198 - - 3489",
+          "date_fetched": "2025-08-05 20:13:24"
+        }
+      ]
+    },
+    {
+      "unit": "PH25",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3511",
+          "price_range": "3511 - - 3835",
+          "date_fetched": "2025-08-05 20:13:28"
+        }
+      ]
+    },
+    {
+      "unit": "0506",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3594",
+          "price_range": "3594 - - 3949",
+          "date_fetched": "2025-08-05 20:13:28"
+        }
+      ]
+    },
+    {
+      "unit": "0931",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3561",
+          "price_range": "3561 - - 3914",
+          "date_fetched": "2025-08-05 20:13:28"
+        }
+      ]
+    },
+    {
+      "unit": "0513",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3391",
+          "price_range": "3391 - - 3731",
+          "date_fetched": "2025-08-05 20:13:29"
+        }
+      ]
+    },
+    {
+      "unit": "0832",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3679",
+          "price_range": "3679 - - 4040",
+          "date_fetched": "2025-08-05 20:13:29"
+        }
+      ]
+    },
+    {
+      "unit": "PH35",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3561",
+          "price_range": "3561 - - 3913",
+          "date_fetched": "2025-08-05 20:13:29"
+        }
+      ]
+    },
+    {
+      "unit": "0730",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3654",
+          "price_range": "3654 - - 4020",
+          "date_fetched": "2025-08-05 20:13:29"
+        }
+      ]
+    },
+    {
+      "unit": "0335",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3469",
+          "price_range": "3469 - - 3823",
+          "date_fetched": "2025-08-05 20:13:29"
+        }
+      ]
+    },
+    {
+      "unit": "1006",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3632",
+          "price_range": "3632 - - 3998",
+          "date_fetched": "2025-08-05 20:13:29"
+        }
+      ]
+    },
+    {
+      "unit": "1031",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3564",
+          "price_range": "3564 - - 3925",
+          "date_fetched": "2025-08-05 20:13:29"
+        }
+      ]
+    },
+    {
+      "unit": "0840",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-16",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3762",
+          "price_range": "3762 - - 4127",
+          "date_fetched": "2025-08-05 20:13:29"
+        }
+      ]
+    },
+    {
+      "unit": "0401",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4973",
+          "price_range": "4973 - - 5469",
+          "date_fetched": "2025-08-05 20:13:32"
+        }
+      ]
+    },
+    {
+      "unit": "0717",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5263",
+          "price_range": "5263 - - 5781",
+          "date_fetched": "2025-08-05 20:13:32"
+        }
+      ]
+    },
+    {
+      "unit": "0739",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5348",
+          "price_range": "5348 - - 5872",
+          "date_fetched": "2025-08-05 20:13:33"
+        }
+      ]
+    },
+    {
+      "unit": "0719",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-16",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5343",
+          "price_range": "5343 - - 5852",
+          "date_fetched": "2025-08-05 20:13:33"
+        }
+      ]
+    },
+    {
+      "unit": "0409",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5327",
+          "price_range": "5327 - - 5841",
+          "date_fetched": "2025-08-05 20:13:33"
+        }
+      ]
+    },
+    {
+      "unit": "0437",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5252",
+          "price_range": "5252 - - 5761",
+          "date_fetched": "2025-08-05 20:13:33"
+        }
+      ]
+    },
+    {
+      "unit": "0524",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5232",
+          "price_range": "5232 - - 5739",
+          "date_fetched": "2025-08-05 20:13:33"
+        }
+      ]
+    },
+    {
+      "unit": "PH37",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5152",
+          "price_range": "5152 - - 5653",
+          "date_fetched": "2025-08-05 20:13:33"
+        }
+      ]
+    },
+    {
+      "unit": "0429",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-13",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5327",
+          "price_range": "5327 - - 5849",
+          "date_fetched": "2025-08-05 20:13:33"
+        }
+      ]
+    },
+    {
+      "unit": "0317",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-26",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5330",
+          "price_range": "5330 - - 5779",
+          "date_fetched": "2025-08-05 20:13:33"
+        }
+      ]
+    }
+  ],
+  "235grand": [
+    {
+      "unit": "4410",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3229",
+          "price_range": "Rent:\n3229 - - 4047",
+          "date_fetched": "2025-08-05 20:13:36"
+        }
+      ]
+    },
+    {
+      "unit": "3911",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3399",
+          "price_range": "Rent:\n3399 - - 4219",
+          "date_fetched": "2025-08-05 20:13:36"
+        }
+      ]
+    },
+    {
+      "unit": "3010",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3254",
+          "price_range": "Rent:\n3254 - - 4072",
+          "date_fetched": "2025-08-05 20:13:36"
+        }
+      ]
+    },
+    {
+      "unit": "3407",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3504",
+          "price_range": "Rent:\n3504 - - 4359",
+          "date_fetched": "2025-08-05 20:13:37"
+        }
+      ]
+    },
+    {
+      "unit": "3510",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3304",
+          "price_range": "Rent:\n3304 - - 4129",
+          "date_fetched": "2025-08-05 20:13:37"
+        }
+      ]
+    },
+    {
+      "unit": "2811",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3259",
+          "price_range": "Rent:\n3259 - - 4087",
+          "date_fetched": "2025-08-05 20:13:37"
+        }
+      ]
+    },
+    {
+      "unit": "1707",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3344",
+          "price_range": "Rent:\n3344 - - 4184",
+          "date_fetched": "2025-08-05 20:13:37"
+        }
+      ]
+    },
+    {
+      "unit": "4507",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3604",
+          "price_range": "Rent:\n3604 - - 4484",
+          "date_fetched": "2025-08-05 20:13:37"
+        }
+      ]
+    },
+    {
+      "unit": "1607",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3334",
+          "price_range": "Rent:\n3334 - - 4163",
+          "date_fetched": "2025-08-05 20:13:37"
+        }
+      ]
+    },
+    {
+      "unit": "4411",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "Rent:\n3434",
+          "price_range": "Rent:\n3434 - - 4259",
+          "date_fetched": "2025-08-05 20:13:37"
+        }
+      ]
+    },
+    {
+      "unit": "1109",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3933",
+          "price_range": "3933 - - 4933",
+          "date_fetched": "2025-08-05 20:13:41"
+        }
+      ]
+    },
+    {
+      "unit": "2504",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3633",
+          "price_range": "3633 - - 4588",
+          "date_fetched": "2025-08-05 20:13:41"
+        }
+      ]
+    },
+    {
+      "unit": "3512",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3783",
+          "price_range": "3783 - - 4760",
+          "date_fetched": "2025-08-05 20:13:41"
+        }
+      ]
+    },
+    {
+      "unit": "3809",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4093",
+          "price_range": "4093 - - 5117",
+          "date_fetched": "2025-08-05 20:13:41"
+        }
+      ]
+    },
+    {
+      "unit": "4108",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3828",
+          "price_range": "3828 - - 4812",
+          "date_fetched": "2025-08-05 20:13:41"
+        }
+      ]
+    },
+    {
+      "unit": "3612",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-13",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3833",
+          "price_range": "3833 - - 4821",
+          "date_fetched": "2025-08-05 20:13:41"
+        }
+      ]
+    },
+    {
+      "unit": "4208",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-15",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3893",
+          "price_range": "3893 - - 4868",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "2602",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-22",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3793",
+          "price_range": "3793 - - 4742",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "4502",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-22",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3883",
+          "price_range": "3883 - - 4846",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "0623",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3858",
+          "price_range": "3858 - - 4795",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "2702",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3793",
+          "price_range": "3793 - - 4721",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "3308",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3838",
+          "price_range": "3838 - - 4772",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "3412",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3833",
+          "price_range": "3833 - - 4767",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "3902",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3853",
+          "price_range": "3853 - - 4790",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "1608",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-13",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3728",
+          "price_range": "3728 - - 4657",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "0322",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-30",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3783",
+          "price_range": "3783 - - 4720",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "0512",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3489",
+          "price_range": "3489 - - 4375",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "1904",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3629",
+          "price_range": "3629 - - 4536",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "2312",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3639",
+          "price_range": "3639 - - 4547",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "3709",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4149",
+          "price_range": "4149 - - 5134",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "4403",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4019",
+          "price_range": "4019 - - 4985",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "3001",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-11-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3921",
+          "price_range": "3921 - - 4880",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "3403",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-11-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3941",
+          "price_range": "3941 - - 4903",
+          "date_fetched": "2025-08-05 20:13:42"
+        }
+      ]
+    },
+    {
+      "unit": "0305",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5534",
+          "price_range": "5534 - - 6947",
+          "date_fetched": "2025-08-05 20:13:46"
+        }
+      ]
+    },
+    {
+      "unit": "3505",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-08-08",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5734",
+          "price_range": "5734 - - 7161",
+          "date_fetched": "2025-08-05 20:13:46"
+        }
+      ]
+    },
+    {
+      "unit": "4105",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-05",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5784",
+          "price_range": "5784 - - 7205",
+          "date_fetched": "2025-08-05 20:13:46"
+        }
+      ]
+    },
+    {
+      "unit": "2205",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5634",
+          "price_range": "5634 - - 7000",
+          "date_fetched": "2025-08-05 20:13:46"
+        }
+      ]
+    },
+    {
+      "unit": "3506",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5434",
+          "price_range": "5434 - - 6771",
+          "date_fetched": "2025-08-05 20:13:46"
+        }
+      ]
+    },
+    {
+      "unit": "4306",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-09-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5509",
+          "price_range": "5509 - - 6857",
+          "date_fetched": "2025-08-05 20:13:46"
+        }
+      ]
+    },
+    {
+      "unit": "2706",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-02",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5392",
+          "price_range": "5392 - - 6698",
+          "date_fetched": "2025-08-05 20:13:46"
+        }
+      ]
+    },
+    {
+      "unit": "2705",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5692",
+          "price_range": "5692 - - 7074",
+          "date_fetched": "2025-08-05 20:13:46"
+        }
+      ]
+    },
+    {
+      "unit": "3805",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2025-10-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5767",
+          "price_range": "5767 - - 7160",
+          "date_fetched": "2025-08-05 20:13:46"
+        }
+      ]
+    }
+  ]
+}

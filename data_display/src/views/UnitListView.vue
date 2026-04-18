@@ -306,20 +306,18 @@
                   </v-list-item-subtitle>
                 </v-list-item>
 
-                <v-list-item v-if="selectedUnit.floorplan_link">
-                  <template v-slot:prepend>
-                    <v-icon class="me-4">mdi-link</v-icon>
-                  </template>
-                  <v-list-item-title>Floorplan</v-list-item-title>
-                  <v-list-item-subtitle>
+                <v-list-item v-if="selectedUnit.floorplan_link" class="pa-0">
+                  <v-list-item-title class="d-flex align-center">
+                    <v-icon class="me-2">mdi-floor-plan</v-icon>
                     <a
                       :href="selectedUnit.floorplan_link"
                       target="_blank"
-                      class="text-decoration-none"
+                      class="text-decoration-underline text-primary"
+                      @click.stop
                     >
                       View Floorplan
                     </a>
-                  </v-list-item-subtitle>
+                  </v-list-item-title>
                 </v-list-item>
 
                 <v-list-item v-if="selectedUnit.floorplan_note">

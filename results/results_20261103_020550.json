@@ -1,0 +1,1500 @@
+{
+  "columbus579": [
+    {
+      "unit": "3104",
+      "building": "50-columbus",
+      "size": "545",
+      "available_date": "1900-01-01",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3465,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:08"
+        }
+      ]
+    },
+    {
+      "unit": "1804",
+      "building": "50-columbus",
+      "size": "545",
+      "available_date": "2027-01-06",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3400,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:08"
+        }
+      ]
+    },
+    {
+      "unit": "1411",
+      "building": "50-columbus",
+      "size": "546",
+      "available_date": "2027-01-22",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3230,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:12"
+        }
+      ]
+    },
+    {
+      "unit": "408",
+      "building": "50-columbus",
+      "size": "678",
+      "available_date": "2026-11-24",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3535,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:16"
+        }
+      ]
+    },
+    {
+      "unit": "1103",
+      "building": "50-columbus",
+      "size": "781",
+      "available_date": "1900-01-01",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3810,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:19"
+        }
+      ]
+    },
+    {
+      "unit": "1010",
+      "building": "50-columbus",
+      "size": "781",
+      "available_date": "2027-01-11",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3785,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:23"
+        }
+      ]
+    },
+    {
+      "unit": "2908",
+      "building": "50-columbus",
+      "size": "812",
+      "available_date": "2026-11-10",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4130,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:27"
+        }
+      ]
+    },
+    {
+      "unit": "2912",
+      "building": "50-columbus",
+      "size": "840",
+      "available_date": "2026-11-14",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4230,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:33"
+        }
+      ]
+    },
+    {
+      "unit": "1509",
+      "building": "50-columbus",
+      "size": "1250",
+      "available_date": "2026-11-11",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5305,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:37"
+        }
+      ]
+    },
+    {
+      "unit": "ph08",
+      "building": "70-columbus",
+      "size": "474",
+      "available_date": "2026-11-13",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3710,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:45"
+        }
+      ]
+    },
+    {
+      "unit": "2909",
+      "building": "70-columbus",
+      "size": "662",
+      "available_date": "2026-11-22",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3895,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:48"
+        }
+      ]
+    },
+    {
+      "unit": "2407",
+      "building": "70-columbus",
+      "size": "675",
+      "available_date": "2027-01-14",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3700,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:03:52"
+        }
+      ]
+    },
+    {
+      "unit": "608",
+      "building": "90-columbus",
+      "size": "538",
+      "available_date": "2026-11-21",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3290,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:00"
+        }
+      ]
+    },
+    {
+      "unit": "509",
+      "building": "90-columbus",
+      "size": "538",
+      "available_date": "2026-12-06",
+      "floorplan_type": "studio",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3320,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:00"
+        }
+      ]
+    },
+    {
+      "unit": "4609",
+      "building": "90-columbus",
+      "size": "676",
+      "available_date": "2026-11-30",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3995,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:04"
+        }
+      ]
+    },
+    {
+      "unit": "207",
+      "building": "90-columbus",
+      "size": "691",
+      "available_date": "2026-11-09",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 3800,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:08"
+        }
+      ]
+    },
+    {
+      "unit": "3708",
+      "building": "90-columbus",
+      "size": "704",
+      "available_date": "2026-11-24",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4535,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:12"
+        }
+      ]
+    },
+    {
+      "unit": "3606",
+      "building": "90-columbus",
+      "size": "708",
+      "available_date": "2026-11-15",
+      "floorplan_type": "1b1b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 4290,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:15"
+        }
+      ]
+    },
+    {
+      "unit": "3711",
+      "building": "90-columbus",
+      "size": "998",
+      "available_date": "2026-12-11",
+      "floorplan_type": "2b2b",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": 5560,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:19"
+        }
+      ]
+    }
+  ],
+  "haus25": [
+    {
+      "unit": "H25-1606",
+      "building": "Haus25",
+      "size": 464,
+      "available_date": "2027-01-28",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S2.png",
+      "floorplan_note": "Floorplan: S2",
+      "prices": [
+        {
+          "price": 3515,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:36"
+        }
+      ]
+    },
+    {
+      "unit": "H25-3113",
+      "building": "Haus25",
+      "size": 475,
+      "available_date": "2026-12-26",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S4.png",
+      "floorplan_note": "Floorplan: S4",
+      "prices": [
+        {
+          "price": 3590,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:37"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4113",
+      "building": "Haus25",
+      "size": 475,
+      "available_date": "2026-12-30",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S4.png",
+      "floorplan_note": "Floorplan: S4",
+      "prices": [
+        {
+          "price": 3725,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:37"
+        }
+      ]
+    },
+    {
+      "unit": "H25-5113",
+      "building": "Haus25",
+      "size": 475,
+      "available_date": "2026-11-10",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S4.png",
+      "floorplan_note": "Floorplan: S4",
+      "prices": [
+        {
+          "price": 3875,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:37"
+        }
+      ]
+    },
+    {
+      "unit": "H25-2804",
+      "building": "Haus25",
+      "size": 527,
+      "available_date": "2027-01-03",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S7A.png",
+      "floorplan_note": "Floorplan: S7A",
+      "prices": [
+        {
+          "price": 3645,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:38"
+        }
+      ]
+    },
+    {
+      "unit": "H25-3804",
+      "building": "Haus25",
+      "size": 527,
+      "available_date": "2026-12-07",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S7A.png",
+      "floorplan_note": "Floorplan: S7A",
+      "prices": [
+        {
+          "price": 3765,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:38"
+        }
+      ]
+    },
+    {
+      "unit": "H25-3402",
+      "building": "Haus25",
+      "size": 444,
+      "available_date": "2026-11-08",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S1.png",
+      "floorplan_note": "Floorplan: S1",
+      "prices": [
+        {
+          "price": 3645,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:38"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4302",
+      "building": "Haus25",
+      "size": 444,
+      "available_date": "2026-11-03",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S1.png",
+      "floorplan_note": "Floorplan: S1",
+      "prices": [
+        {
+          "price": 3780,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:38"
+        }
+      ]
+    },
+    {
+      "unit": "H25-3516",
+      "building": "Haus25",
+      "size": 466,
+      "available_date": "2026-12-19",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S3.png",
+      "floorplan_note": "Floorplan: S3",
+      "prices": [
+        {
+          "price": 3770,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:39"
+        }
+      ]
+    },
+    {
+      "unit": "H25-0401",
+      "building": "Haus25",
+      "size": 575,
+      "available_date": "2026-12-30",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S8B.png",
+      "floorplan_note": "Floorplan: S8B",
+      "prices": [
+        {
+          "price": 3885,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:40"
+        }
+      ]
+    },
+    {
+      "unit": "H25-2501",
+      "building": "Haus25",
+      "size": 575,
+      "available_date": "2027-01-19",
+      "floorplan_type": "0 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_S8B.png",
+      "floorplan_note": "Floorplan: S8B",
+      "prices": [
+        {
+          "price": 4030,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:40"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4117",
+      "building": "Haus25",
+      "size": 675,
+      "available_date": "2027-01-02",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A2.png",
+      "floorplan_note": "Floorplan: A2",
+      "prices": [
+        {
+          "price": 5175,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:41"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4517",
+      "building": "Haus25",
+      "size": 675,
+      "available_date": "2026-11-30",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A2.png",
+      "floorplan_note": "Floorplan: A2",
+      "prices": [
+        {
+          "price": 5235,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:41"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4617",
+      "building": "Haus25",
+      "size": 675,
+      "available_date": "2026-10-09",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A2.png",
+      "floorplan_note": "Floorplan: A2",
+      "prices": [
+        {
+          "price": 5250,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:41"
+        }
+      ]
+    },
+    {
+      "unit": "H25-5017",
+      "building": "Haus25",
+      "size": 675,
+      "available_date": "2026-11-06",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A2.png",
+      "floorplan_note": "Floorplan: A2",
+      "prices": [
+        {
+          "price": 5310,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:41"
+        }
+      ]
+    },
+    {
+      "unit": "H25-5317",
+      "building": "Haus25",
+      "size": 675,
+      "available_date": "2026-11-11",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A2.png",
+      "floorplan_note": "Floorplan: A2",
+      "prices": [
+        {
+          "price": 5405,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:41"
+        }
+      ]
+    },
+    {
+      "unit": "H25-2013",
+      "building": "Haus25",
+      "size": 745,
+      "available_date": "2026-10-12",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A4.png",
+      "floorplan_note": "Floorplan: A4",
+      "prices": [
+        {
+          "price": 5180,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:42"
+        }
+      ]
+    },
+    {
+      "unit": "H25-1015",
+      "building": "Haus25",
+      "size": 809,
+      "available_date": "2026-11-27",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A11.png",
+      "floorplan_note": "Floorplan: A11",
+      "prices": [
+        {
+          "price": 5630,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:43"
+        }
+      ]
+    },
+    {
+      "unit": "H25-3009",
+      "building": "Haus25",
+      "size": 835,
+      "available_date": "2026-12-26",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A14.png",
+      "floorplan_note": "Floorplan: A14",
+      "prices": [
+        {
+          "price": 5705,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:44"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4312",
+      "building": "Haus25",
+      "size": 665,
+      "available_date": "2026-10-31",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A1-1.png",
+      "floorplan_note": "Floorplan: A1",
+      "prices": [
+        {
+          "price": 5715,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:44"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4512",
+      "building": "Haus25",
+      "size": 744,
+      "available_date": "2026-11-21",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A5.png",
+      "floorplan_note": "Floorplan: A5",
+      "prices": [
+        {
+          "price": 5765,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:45"
+        }
+      ]
+    },
+    {
+      "unit": "H25-5112",
+      "building": "Haus25",
+      "size": 744,
+      "available_date": "2026-11-15",
+      "floorplan_type": "1 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_A5.png",
+      "floorplan_note": "Floorplan: A5",
+      "prices": [
+        {
+          "price": 5855,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:45"
+        }
+      ]
+    },
+    {
+      "unit": "H25-5218",
+      "building": "Haus25",
+      "size": 1003,
+      "available_date": "2026-10-07",
+      "floorplan_type": "2 bed, 1 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B2.png",
+      "floorplan_note": "Floorplan: B2",
+      "prices": [
+        {
+          "price": 6530,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:46"
+        }
+      ]
+    },
+    {
+      "unit": "H25-3406",
+      "building": "Haus25",
+      "size": 1113,
+      "available_date": "2027-01-19",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B5.png",
+      "floorplan_note": "Floorplan: B5",
+      "prices": [
+        {
+          "price": 6800,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:47"
+        }
+      ]
+    },
+    {
+      "unit": "H25-5005",
+      "building": "Haus25",
+      "size": 1113,
+      "available_date": "2026-10-26",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B5.png",
+      "floorplan_note": "Floorplan: B5",
+      "prices": [
+        {
+          "price": 7750,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:47"
+        }
+      ]
+    },
+    {
+      "unit": "H25-1907",
+      "building": "Haus25",
+      "size": 1181,
+      "available_date": "2026-11-05",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B6.png",
+      "floorplan_note": "Floorplan: B6",
+      "prices": [
+        {
+          "price": 6905,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:48"
+        }
+      ]
+    },
+    {
+      "unit": "H25-2307",
+      "building": "Haus25",
+      "size": 1181,
+      "available_date": "2026-11-07",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B6.png",
+      "floorplan_note": "Floorplan: B6",
+      "prices": [
+        {
+          "price": 6945,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:48"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4103",
+      "building": "Haus25",
+      "size": 1245,
+      "available_date": "2026-09-08",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B10B.png",
+      "floorplan_note": "Floorplan: B10B",
+      "prices": [
+        {
+          "price": 7040,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:49"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4203",
+      "building": "Haus25",
+      "size": 1245,
+      "available_date": "2027-01-09",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B10B.png",
+      "floorplan_note": "Floorplan: B10B",
+      "prices": [
+        {
+          "price": 7055,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:49"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4111",
+      "building": "Haus25",
+      "size": 1213,
+      "available_date": "2026-10-04",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B10A.png",
+      "floorplan_note": "Floorplan: B10A",
+      "prices": [
+        {
+          "price": 7500,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:50"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4911",
+      "building": "Haus25",
+      "size": 1133,
+      "available_date": "2026-07-30",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B9.png",
+      "floorplan_note": "Floorplan: B9",
+      "prices": [
+        {
+          "price": 7625,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:51"
+        }
+      ]
+    },
+    {
+      "unit": "H25-2314",
+      "building": "Haus25",
+      "size": 1166,
+      "available_date": "2026-10-07",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B4.png",
+      "floorplan_note": "Floorplan: B4",
+      "prices": [
+        {
+          "price": 7755,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:51"
+        }
+      ]
+    },
+    {
+      "unit": "H25-3115",
+      "building": "Haus25",
+      "size": 1210,
+      "available_date": "2026-10-11",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B8.png",
+      "floorplan_note": "Floorplan: B8",
+      "prices": [
+        {
+          "price": 7820,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:52"
+        }
+      ]
+    },
+    {
+      "unit": "H25-3715",
+      "building": "Haus25",
+      "size": 1210,
+      "available_date": "2026-10-20",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B8.png",
+      "floorplan_note": "Floorplan: B8",
+      "prices": [
+        {
+          "price": 7895,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:52"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4315",
+      "building": "Haus25",
+      "size": 1210,
+      "available_date": "2026-09-16",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B8.png",
+      "floorplan_note": "Floorplan: B8",
+      "prices": [
+        {
+          "price": 7985,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:52"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4615",
+      "building": "Haus25",
+      "size": 1120,
+      "available_date": "2026-11-06",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B7.png",
+      "floorplan_note": "Floorplan: B7",
+      "prices": [
+        {
+          "price": 8085,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:53"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4715",
+      "building": "Haus25",
+      "size": 1120,
+      "available_date": "2026-12-09",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B7.png",
+      "floorplan_note": "Floorplan: B7",
+      "prices": [
+        {
+          "price": 8100,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:53"
+        }
+      ]
+    },
+    {
+      "unit": "H25-5315",
+      "building": "Haus25",
+      "size": 1120,
+      "available_date": "2026-10-08",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B7.png",
+      "floorplan_note": "Floorplan: B7",
+      "prices": [
+        {
+          "price": 8240,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:53"
+        }
+      ]
+    },
+    {
+      "unit": "H25-5503",
+      "building": "Haus25",
+      "size": 1245,
+      "available_date": "2026-11-17",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B12.png",
+      "floorplan_note": "Floorplan: B12",
+      "prices": [
+        {
+          "price": 8255,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:54"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4609",
+      "building": "Haus25",
+      "size": 1200,
+      "available_date": "2026-10-25",
+      "floorplan_type": "2 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_B11.png",
+      "floorplan_note": "Floorplan: B11",
+      "prices": [
+        {
+          "price": 8300,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:55"
+        }
+      ]
+    },
+    {
+      "unit": "H25-4814",
+      "building": "Haus25",
+      "size": 1411,
+      "available_date": "2026-11-25",
+      "floorplan_type": "3 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_C1.png",
+      "floorplan_note": "Floorplan: C1",
+      "prices": [
+        {
+          "price": 12855,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:56"
+        }
+      ]
+    },
+    {
+      "unit": "H25-5114",
+      "building": "Haus25",
+      "size": 1411,
+      "available_date": "2026-12-19",
+      "floorplan_type": "3 bed, 2 bath",
+      "floorplan_link": "https://verisresidential.com/wp-content/uploads/apartment-images/Veris_H25_Floorplan_C1.png",
+      "floorplan_note": "Floorplan: C1",
+      "prices": [
+        {
+          "price": 12900,
+          "price_range": "",
+          "date_fetched": "2026-11-03 02:04:56"
+        }
+      ]
+    }
+  ],
+  "1grove": [],
+  "warrenatyork": [],
+  "18park": [
+    {
+      "unit": "0614",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3165.00",
+          "price_range": "3165.00 - -3470.00",
+          "date_fetched": "2026-11-03 02:05:19"
+        }
+      ]
+    },
+    {
+      "unit": "PH26",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3135.00",
+          "price_range": "3135.00 - -3435.00",
+          "date_fetched": "2026-11-03 02:05:19"
+        }
+      ]
+    },
+    {
+      "unit": "PH02",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-12-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3260.00",
+          "price_range": "3260.00 - -3600.00",
+          "date_fetched": "2026-11-03 02:05:19"
+        }
+      ]
+    },
+    {
+      "unit": "0601",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4735.00",
+          "price_range": "4735.00 - -5210.00",
+          "date_fetched": "2026-11-03 02:05:36"
+        }
+      ]
+    },
+    {
+      "unit": "0917",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-06",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4830.00",
+          "price_range": "4830.00 - -5325.00",
+          "date_fetched": "2026-11-03 02:05:36"
+        }
+      ]
+    },
+    {
+      "unit": "1037",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4845.00",
+          "price_range": "4845.00 - -5330.00",
+          "date_fetched": "2026-11-03 02:05:37"
+        }
+      ]
+    },
+    {
+      "unit": "0309",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-12-15",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5025.00",
+          "price_range": "5025.00 - -5490.00",
+          "date_fetched": "2026-11-03 02:05:37"
+        }
+      ]
+    }
+  ],
+  "235grand": [
+    {
+      "unit": "3913",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3915.00",
+          "price_range": "3915.00 - -4315.00",
+          "date_fetched": "2026-11-03 02:05:41"
+        }
+      ]
+    },
+    {
+      "unit": "1611",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-04",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3300.00",
+          "price_range": "3300.00 - -3650.00",
+          "date_fetched": "2026-11-03 02:05:41"
+        }
+      ]
+    },
+    {
+      "unit": "1107",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-13",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3490.00",
+          "price_range": "3490.00 - -3870.00",
+          "date_fetched": "2026-11-03 02:05:41"
+        }
+      ]
+    },
+    {
+      "unit": "2213",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-15",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3665.00",
+          "price_range": "3665.00 - -4050.00",
+          "date_fetched": "2026-11-03 02:05:41"
+        }
+      ]
+    },
+    {
+      "unit": "3611",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-12-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3530.00",
+          "price_range": "3530.00 - -3915.00",
+          "date_fetched": "2026-11-03 02:05:41"
+        }
+      ]
+    },
+    {
+      "unit": "2310",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-12-16",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3370.00",
+          "price_range": "3370.00 - -3735.00",
+          "date_fetched": "2026-11-03 02:05:41"
+        }
+      ]
+    },
+    {
+      "unit": "4411",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2027-01-04",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3600.00",
+          "price_range": "3600.00 - -3970.00",
+          "date_fetched": "2026-11-03 02:05:41"
+        }
+      ]
+    },
+    {
+      "unit": "1811",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2027-01-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3350.00",
+          "price_range": "3350.00 - -3720.00",
+          "date_fetched": "2026-11-03 02:05:41"
+        }
+      ]
+    },
+    {
+      "unit": "4412",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4105.00",
+          "price_range": "4105.00 - -4580.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "0803",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-06",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3940.00",
+          "price_range": "3940.00 - -4420.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "0423",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4005.00",
+          "price_range": "4005.00 - -4480.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "1702",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3920.00",
+          "price_range": "3920.00 - -4390.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "2604",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-08",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3890.00",
+          "price_range": "3890.00 - -4350.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "2112",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-25",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3780.00",
+          "price_range": "3780.00 - -4195.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "0225",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-12-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3880.00",
+          "price_range": "3880.00 - -4315.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "3108",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-12-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4025.00",
+          "price_range": "4025.00 - -4470.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "4209",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-12-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4390.00",
+          "price_range": "4390.00 - -4865.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "3904",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-12-20",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3950.00",
+          "price_range": "3950.00 - -4360.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "1904",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2027-01-07",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "3895.00",
+          "price_range": "3895.00 - -4415.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "0321",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2027-01-10",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "4095.00",
+          "price_range": "4095.00 - -4590.00",
+          "date_fetched": "2026-11-03 02:05:45"
+        }
+      ]
+    },
+    {
+      "unit": "0305",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5305.00",
+          "price_range": "5305.00 - -5895.00",
+          "date_fetched": "2026-11-03 02:05:49"
+        }
+      ]
+    },
+    {
+      "unit": "1006",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "1970-01-01",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5035.00",
+          "price_range": "5035.00 - -5605.00",
+          "date_fetched": "2026-11-03 02:05:49"
+        }
+      ]
+    },
+    {
+      "unit": "1206",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-03",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5110.00",
+          "price_range": "5110.00 - -5670.00",
+          "date_fetched": "2026-11-03 02:05:49"
+        }
+      ]
+    },
+    {
+      "unit": "4506",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-20",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5475.00",
+          "price_range": "5475.00 - -6050.00",
+          "date_fetched": "2026-11-03 02:05:49"
+        }
+      ]
+    },
+    {
+      "unit": "1806",
+      "building": "235Grand",
+      "size": 0,
+      "available_date": "2026-11-21",
+      "floorplan_type": "",
+      "floorplan_link": "",
+      "floorplan_note": "",
+      "prices": [
+        {
+          "price": "5235.00",
+          "price_range": "5235.00 - -5795.00",
+          "date_fetched": "2026-11-03 02:05:49"
+        }
+      ]
+    }
+  ]
+}
